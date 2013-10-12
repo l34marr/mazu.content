@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="mazu.content">
+<body>
+
+<metal:main fill-slot="content-core">
+<metal:content-core define-macro="content-core">
+
+<div tal:condition="context/type">
+<tal:field i18n:translate="">Types</tal:field>:
+<span tal:replace="context/type" />
+</div>
+
+<div tal:condition="context/author">
+<tal:field i18n:translate="">Author</tal:field>:
+<span tal:replace="context/author" />
+</div>
+
+<div tal:condition="context/distribution">
+<tal:field i18n:translate="">Distribution</tal:field>:
+<span tal:replace="context/distribution" />
+</div>
+
+<div tal:condition="context/date">
+<tal:field i18n:translate="">Date</tal:field>:
+<span tal:replace="context/date" />
+</div>
+
+<div tal:condition="context/publisher">
+<tal:field i18n:translate="">Publisher</tal:field>:
+<span tal:replace="context/publisher" />
+</div>
+
+<div tal:condition="context/description">
+<tal:field i18n:translate="">Description</tal:field>:
+<span tal:replace="context/description" />
+</div>
+
+<div tal:condition="context/url">
+<tal:field i18n:translate="">URLs</tal:field>:
+<span tal:replace="context/url" />
+</div>
+
+<div tal:condition="context/archive">
+<tal:field i18n:translate="">Archive</tal:field>:
+<span tal:replace="context/archive" />
+</div>
+
+<div tal:condition="context/database">
+<tal:field i18n:translate="">Databases</tal:field>:
+<span tal:replace="context/database" />
+</div>
+
+<div tal:condition="context/study">
+<tal:field i18n:translate="">Studies</tal:field>:
+<span tal:replace="context/study" />
+</div>
+
+</metal:content-core>
+</metal:main>
+
+</body>
+</html>

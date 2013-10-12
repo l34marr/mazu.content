@@ -16,6 +16,7 @@
 
   <include package=".behaviors" />
   <include package="plone.app.relationfield" />
+  <include file="vocabularies.zcml" />
 
   <!-- Register a resource directory to deploy static resource files. -->
   <browser:resourceDirectory
