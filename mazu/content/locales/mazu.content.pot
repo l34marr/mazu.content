@@ -1,0 +1,221 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-13 01:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: mazu.content\n"
+
+#: ./vocabularies.py:17
+msgid "Ancient"
+msgstr ""
+
+#: ./publication.py:67
+#: ./publication_templates/view.pt:49
+msgid "Archive"
+msgstr ""
+
+#: ./vocabularies.py:34
+msgid "Archive DB"
+msgstr ""
+
+#: ./vocabularies.py:57
+msgid "Argument"
+msgstr ""
+
+#: ./vocabularies.py:65
+msgid "Arts"
+msgstr ""
+
+#: ./publication.py:37
+#: ./publication_templates/view.pt:19
+msgid "Author"
+msgstr ""
+
+#: ./vocabularies.py:13
+msgid "Book"
+msgstr ""
+
+#: ./vocabularies.py:51
+msgid "Classic"
+msgstr ""
+
+#: ./vocabularies.py:62
+msgid "Community"
+msgstr ""
+
+#: ./vocabularies.py:52
+msgid "Comparison"
+msgstr ""
+
+#: ./publication.py:72
+#: ./publication_templates/view.pt:54
+msgid "Databases"
+msgstr ""
+
+#: ./publication.py:47
+#: ./publication_templates/view.pt:29
+msgid "Date"
+msgstr ""
+
+#: ./publication.py:57
+#: ./publication_templates/view.pt:39
+msgid "Description"
+msgstr ""
+
+#: ./publication.py:42
+#: ./publication_templates/view.pt:24
+msgid "Distribution"
+msgstr ""
+
+#: ./vocabularies.py:64
+msgid "Document"
+msgstr ""
+
+#: ./vocabularies.py:66
+msgid "Economics"
+msgstr ""
+
+#: ./vocabularies.py:38
+msgid "Folk DB"
+msgstr ""
+
+#: ./vocabularies.py:39
+msgid "Foreign DB"
+msgstr ""
+
+#: ./vocabularies.py:53
+msgid "History"
+msgstr ""
+
+#: ./publication.py:84
+msgid "Image"
+msgstr ""
+
+#: ./vocabularies.py:50
+msgid "Introduction"
+msgstr ""
+
+#: ./vocabularies.py:21
+msgid "Journal"
+msgstr ""
+
+#: ./vocabularies.py:36
+msgid "MaZu DB"
+msgstr ""
+
+#: ./vocabularies.py:35
+msgid "Mainland DB"
+msgstr ""
+
+#: ./vocabularies.py:16
+msgid "Media"
+msgstr ""
+
+#: ./vocabularies.py:56
+msgid "Organization"
+msgstr ""
+
+#: ./vocabularies.py:22
+msgid "Other"
+msgstr ""
+
+#: ./vocabularies.py:20
+msgid "Paper"
+msgstr ""
+
+#: ./vocabularies.py:19
+msgid "Periodical"
+msgstr ""
+
+#: ./vocabularies.py:55
+msgid "Pilgrimage"
+msgstr ""
+
+#: ./vocabularies.py:61
+msgid "Policy"
+msgstr ""
+
+#: ./vocabularies.py:59
+msgid "Politics"
+msgstr ""
+
+#: ./vocabularies.py:18
+msgid "Proceeding"
+msgstr ""
+
+#: ./profiles/default/types/publication.xml
+msgid "Publication"
+msgstr ""
+
+#: ./vocabularies.py:33
+msgid "Publication DB"
+msgstr ""
+
+#: ./profiles/default/types/publication.xml
+msgid "Publication Type"
+msgstr ""
+
+#: ./publication.py:52
+#: ./publication_templates/view.pt:34
+msgid "Publisher"
+msgstr ""
+
+#: ./vocabularies.py:63
+msgid "Region"
+msgstr ""
+
+#: ./vocabularies.py:37
+msgid "Religion DB"
+msgstr ""
+
+#: ./vocabularies.py:54
+msgid "Ritual"
+msgstr ""
+
+#: ./vocabularies.py:60
+msgid "Spread"
+msgstr ""
+
+#: ./vocabularies.py:58
+msgid "Straits"
+msgstr ""
+
+#: ./publication.py:78
+#: ./publication_templates/view.pt:59
+msgid "Studies"
+msgstr ""
+
+#: ./vocabularies.py:14
+msgid "Temple"
+msgstr ""
+
+#: ./vocabularies.py:15
+msgid "Thesis"
+msgstr ""
+
+#: ./publication.py:27
+msgid "Title"
+msgstr ""
+
+#: ./publication.py:31
+#: ./publication_templates/view.pt:14
+msgid "Types"
+msgstr ""
+
+#: ./publication.py:62
+#: ./publication_templates/view.pt:44
+msgid "URLs"
+msgstr ""
+

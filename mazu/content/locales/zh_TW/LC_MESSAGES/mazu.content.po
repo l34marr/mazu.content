@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mazu.content\n"
+"POT-Creation-Date: 2013-10-13 01:58+0000\n"
+"PO-Revision-Date: 2013-10-13 10:00+0800\n"
+"Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
+"Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-tw\n"
+"Language-Name: Traditional Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: mazu.content\n"
+
+#: ./vocabularies.py:17
+msgid "Ancient"
+msgstr "古籍"
+
+#: ./publication.py:67
+#: ./publication_templates/view.pt:49
+msgid "Archive"
+msgstr "中心收藏"
+
+#: ./vocabularies.py:34
+msgid "Archive DB"
+msgstr "文獻中心典藏書刊目錄資料庫"
+
+#: ./vocabularies.py:57
+msgid "Argument"
+msgstr "媽祖廟糾紛與爭論"
+
+#: ./vocabularies.py:65
+msgid "Arts"
+msgstr "建築、藝術"
+
+#: ./publication.py:37
+#: ./publication_templates/view.pt:19
+msgid "Author"
+msgstr "作者"
+
+#: ./vocabularies.py:13
+msgid "Book"
+msgstr "書籍"
+
+#: ./vocabularies.py:51
+msgid "Classic"
+msgstr "信仰與經典"
+
+#: ./vocabularies.py:62
+msgid "Community"
+msgstr "媽祖信仰與社區組織"
+
+#: ./vocabularies.py:52
+msgid "Comparison"
+msgstr "媽祖文化與比較研究"
+
+#: ./publication.py:72
+#: ./publication_templates/view.pt:54
+msgid "Databases"
+msgstr "資料庫分類"
+
+#: ./publication.py:47
+#: ./publication_templates/view.pt:29
+msgid "Date"
+msgstr "出版日期"
+
+#: ./publication.py:57
+#: ./publication_templates/view.pt:39
+msgid "Description"
+msgstr "介紹摘要"
+
+#: ./publication.py:42
+#: ./publication_templates/view.pt:24
+msgid "Distribution"
+msgstr "書刊資訊"
+
+#: ./vocabularies.py:64
+msgid "Document"
+msgstr "單一媽祖廟研究(含廟誌)"
+
+#: ./vocabularies.py:66
+msgid "Economics"
+msgstr "社會經濟"
+
+#: ./vocabularies.py:38
+msgid "Folk DB"
+msgstr "民間信仰研究論著目錄資料庫"
+
+#: ./vocabularies.py:39
+msgid "Foreign DB"
+msgstr "外文期刊論著目次資料庫"
+
+#: ./vocabularies.py:53
+msgid "History"
+msgstr "歷史、事蹟與傳說"
+
+#: ./publication.py:84
+msgid "Image"
+msgstr "影像"
+
+#: ./vocabularies.py:50
+msgid "Introduction"
+msgstr "通論"
+
+#: ./vocabularies.py:21
+msgid "Journal"
+msgstr "期刊論文"
+
+#: ./vocabularies.py:36
+msgid "MaZu DB"
+msgstr "媽祖研究論著目錄資料庫"
+
+#: ./vocabularies.py:35
+msgid "Mainland DB"
+msgstr "文獻中心典藏大陸期刊目錄索引資料庫"
+
+#: ./vocabularies.py:16
+msgid "Media"
+msgstr "影音資料"
+
+#: ./vocabularies.py:56
+msgid "Organization"
+msgstr "祭祀活動與組織"
+
+#: ./vocabularies.py:22
+msgid "Other"
+msgstr "其他"
+
+#: ./vocabularies.py:20
+msgid "Paper"
+msgstr "單篇論文"
+
+#: ./vocabularies.py:19
+msgid "Periodical"
+msgstr "期刊"
+
+#: ./vocabularies.py:55
+msgid "Pilgrimage"
+msgstr "進香"
+
+#: ./vocabularies.py:61
+msgid "Policy"
+msgstr "觀光與文化政策"
+
+#: ./vocabularies.py:59
+msgid "Politics"
+msgstr "媽祖信仰與政治"
+
+#: ./vocabularies.py:18
+msgid "Proceeding"
+msgstr "會議論文集"
+
+#: ./profiles/default/types/publication.xml
+msgid "Publication"
+msgstr "出版品"
+
+#: ./vocabularies.py:33
+msgid "Publication DB"
+msgstr "文獻中心出版品全文資料庫"
+
+#: ./profiles/default/types/publication.xml
+msgid "Publication Type"
+msgstr "出版品型別"
+
+#: ./publication.py:52
+#: ./publication_templates/view.pt:34
+msgid "Publisher"
+msgstr "出版者"
+
+#: ./vocabularies.py:63
+msgid "Region"
+msgstr "區域媽祖廟研究"
+
+#: ./vocabularies.py:37
+msgid "Religion DB"
+msgstr "宗教研究論著目錄資料庫"
+
+#: ./vocabularies.py:54
+msgid "Ritual"
+msgstr "儀式與祭典"
+
+#: ./vocabularies.py:60
+msgid "Spread"
+msgstr "信仰的傳播"
+
+#: ./vocabularies.py:58
+msgid "Straits"
+msgstr "兩岸交流"
+
+#: ./publication.py:78
+#: ./publication_templates/view.pt:59
+msgid "Studies"
+msgstr "媽祖研究資料分類"
+
+#: ./vocabularies.py:14
+msgid "Temple"
+msgstr "寺廟出版品"
+
+#: ./vocabularies.py:15
+msgid "Thesis"
+msgstr "碩博士論文"
+
+#: ./publication.py:27
+msgid "Title"
+msgstr "資料名稱"
+
+#: ./publication.py:31
+#: ./publication_templates/view.pt:14
+msgid "Types"
+msgstr "資料型態"
+
+#: ./publication.py:62
+#: ./publication_templates/view.pt:44
+msgid "URLs"
+msgstr "線上電子資源"
+

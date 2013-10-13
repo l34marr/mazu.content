@@ -18,7 +18,7 @@ class types(object):
             SimpleTerm(value='proceeding', title=_(u'Proceeding')),
             SimpleTerm(value='periodical', title=_(u'Periodical')),
             SimpleTerm(value='paper', title=_(u'Paper')),
-            SimpleTerm(value='conference', title=_(u'Conference')),
+            SimpleTerm(value='journal', title=_(u'Journal')),
             SimpleTerm(value='other', title=_(u'Other')),
         )
         return SimpleVocabulary(items)
@@ -30,13 +30,13 @@ class databases(object):
     implements(IVocabularyFactory)
     def __call__(self, context=None):
         items = (
-            SimpleTerm(value='publication', title=_(u'Publication')),
-            SimpleTerm(value='archive', title=_(u'Archive')),
-            SimpleTerm(value='mainland', title=_(u'Mainland')),
-            SimpleTerm(value='mazu', title=_(u'MaZu')),
-            SimpleTerm(value='religion', title=_(u'Religion')),
-            SimpleTerm(value='folk', title=_(u'Folk')),
-            SimpleTerm(value='foreign', title=_(u'Foreign')),
+            SimpleTerm(value='publication', title=_(u'Publication DB')),
+            SimpleTerm(value='archive', title=_(u'Archive DB')),
+            SimpleTerm(value='mainland', title=_(u'Mainland DB')),
+            SimpleTerm(value='mazu', title=_(u'MaZu DB')),
+            SimpleTerm(value='religion', title=_(u'Religion DB')),
+            SimpleTerm(value='folk', title=_(u'Folk DB')),
+            SimpleTerm(value='foreign', title=_(u'Foreign DB')),
         )
         return SimpleVocabulary(items)
 databasesFactory = databases()
@@ -61,7 +61,7 @@ class studies(object):
             SimpleTerm(value='policy', title=_(u'Policy')),
             SimpleTerm(value='community', title=_(u'Community')),
             SimpleTerm(value='region', title=_(u'Region')),
-            SimpleTerm(value='temple', title=_(u'Temple')),
+            SimpleTerm(value='document', title=_(u'Document')),
             SimpleTerm(value='arts', title=_(u'Arts')),
             SimpleTerm(value='economics', title=_(u'Economics')),
             SimpleTerm(value='other', title=_(u'Other')),
