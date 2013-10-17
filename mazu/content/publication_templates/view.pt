@@ -40,6 +40,11 @@
 <span tal:replace="context/description" />
 </div>
 
+<div tal:condition="context/text">
+<tal:field i18n:translate="">Body</tal:field>:
+<span tal:replace="structure context/text/output">Text</span>
+</div>
+
 <div tal:condition="context/url">
 <tal:field i18n:translate="">URLs</tal:field>:
 <span tal:replace="context/url" />

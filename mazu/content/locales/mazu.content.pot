@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-13 01:58+0000\n"
+"POT-Creation-Date: 2013-10-17 09:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,8 +21,8 @@ msgstr ""
 msgid "Ancient"
 msgstr ""
 
-#: ./publication.py:67
-#: ./publication_templates/view.pt:49
+#: ./publication.py:72
+#: ./publication_templates/view.pt:54
 msgid "Archive"
 msgstr ""
 
@@ -43,6 +43,11 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
+#: ./publication.py:62
+#: ./publication_templates/view.pt:44
+msgid "Body"
+msgstr ""
+
 #: ./vocabularies.py:13
 msgid "Book"
 msgstr ""
@@ -59,8 +64,8 @@ msgstr ""
 msgid "Comparison"
 msgstr ""
 
-#: ./publication.py:72
-#: ./publication_templates/view.pt:54
+#: ./publication.py:77
+#: ./publication_templates/view.pt:59
 msgid "Databases"
 msgstr ""
 
@@ -99,7 +104,7 @@ msgstr ""
 msgid "History"
 msgstr ""
 
-#: ./publication.py:84
+#: ./publication.py:89
 msgid "Image"
 msgstr ""
 
@@ -192,8 +197,8 @@ msgstr ""
 msgid "Straits"
 msgstr ""
 
-#: ./publication.py:78
-#: ./publication_templates/view.pt:59
+#: ./publication.py:83
+#: ./publication_templates/view.pt:64
 msgid "Studies"
 msgstr ""
 
@@ -214,8 +219,8 @@ msgstr ""
 msgid "Types"
 msgstr ""
 
-#: ./publication.py:62
-#: ./publication_templates/view.pt:44
+#: ./publication.py:67
+#: ./publication_templates/view.pt:49
 msgid "URLs"
 msgstr ""
 

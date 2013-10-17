@@ -58,6 +58,11 @@ class IPublication(form.Schema):
         required=False,
     )
 
+    text = RichText(
+        title=_(u"Body"),
+        required=False,
+    )
+
     url = schema.Text(
         title=_(u"URLs"),
         required=False,

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mazu.content\n"
-"POT-Creation-Date: 2013-10-13 01:58+0000\n"
-"PO-Revision-Date: 2013-10-13 10:00+0800\n"
+"POT-Creation-Date: 2013-10-17 09:14+0000\n"
+"PO-Revision-Date: 2013-10-17 17:15+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,8 @@ msgstr ""
 msgid "Ancient"
 msgstr "古籍"
 
-#: ./publication.py:67
-#: ./publication_templates/view.pt:49
+#: ./publication.py:72
+#: ./publication_templates/view.pt:54
 msgid "Archive"
 msgstr "中心收藏"
 
@@ -40,6 +40,11 @@ msgstr "建築、藝術"
 msgid "Author"
 msgstr "作者"
 
+#: ./publication.py:62
+#: ./publication_templates/view.pt:44
+msgid "Body"
+msgstr "詳細介紹"
+
 #: ./vocabularies.py:13
 msgid "Book"
 msgstr "書籍"
@@ -56,8 +61,8 @@ msgstr "媽祖信仰與社區組織"
 msgid "Comparison"
 msgstr "媽祖文化與比較研究"
 
-#: ./publication.py:72
-#: ./publication_templates/view.pt:54
+#: ./publication.py:77
+#: ./publication_templates/view.pt:59
 msgid "Databases"
 msgstr "資料庫分類"
 
@@ -96,7 +101,7 @@ msgstr "外文期刊論著目次資料庫"
 msgid "History"
 msgstr "歷史、事蹟與傳說"
 
-#: ./publication.py:84
+#: ./publication.py:89
 msgid "Image"
 msgstr "影像"
 
@@ -162,7 +167,7 @@ msgstr "文獻中心出版品全文資料庫"
 
 #: ./profiles/default/types/publication.xml
 msgid "Publication Type"
-msgstr "出版品型別"
+msgstr "出版品表單"
 
 #: ./publication.py:52
 #: ./publication_templates/view.pt:34
@@ -189,8 +194,8 @@ msgstr "信仰的傳播"
 msgid "Straits"
 msgstr "兩岸交流"
 
-#: ./publication.py:78
-#: ./publication_templates/view.pt:59
+#: ./publication.py:83
+#: ./publication_templates/view.pt:64
 msgid "Studies"
 msgstr "媽祖研究資料分類"
 
@@ -211,8 +216,8 @@ msgstr "資料名稱"
 msgid "Types"
 msgstr "資料型態"
 
-#: ./publication.py:62
-#: ./publication_templates/view.pt:44
+#: ./publication.py:67
+#: ./publication_templates/view.pt:49
 msgid "URLs"
 msgstr "線上電子資源"
 
