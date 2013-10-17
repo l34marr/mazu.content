@@ -55,14 +55,22 @@
 <span tal:replace="context/archive" />
 </div>
 
-<div tal:condition="context/database">
+<div tal:define="items context/database|nothing"
+     tal:condition="items">
 <tal:field i18n:translate="">Databases</tal:field>:
-<span tal:replace="context/database" />
+<tal:items repeat="item items">
+  <span tal:replace="item">Value</span>
+  <span class="separator" tal:condition="not: repeat/item/end">,</span>
+</tal:items>
 </div>
 
-<div tal:condition="context/study">
+<div tal:define="items context/study|nothing"
+     tal:condition="items">
 <tal:field i18n:translate="">Studies</tal:field>:
-<span tal:replace="context/study" />
+<tal:items repeat="item items">
+  <span tal:replace="item">Value</span>
+  <span class="separator" tal:condition="not: repeat/item/end">,</span>
+</tal:items>
 </div>
 
 </metal:content-core>

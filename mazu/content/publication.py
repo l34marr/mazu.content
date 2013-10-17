@@ -73,16 +73,20 @@ class IPublication(form.Schema):
         required=False,
     )
 
-    database = schema.Choice(
+    database = schema.List(
         title=_(u"Databases"),
-        vocabulary='databases',
-        required=False,
+        value_type=schema.Choice(
+            vocabulary='databases',
+            required=False,
+        ),
     )
 
-    study = schema.Choice(
+    study = schema.List(
         title=_(u"Studies"),
-        vocabulary='studies',
-        required=False,
+        value_type=schema.Choice(
+            vocabulary='studies',
+            required=False,
+        ),
     )
 
     image = NamedBlobImage(
