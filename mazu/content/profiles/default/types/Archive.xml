@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
-<object name="Publication"
+<object name="Archive"
    meta_type="Dexterity FTI"
    i18n:domain="mazu.content"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
   <!-- Basic metadata -->
-  <property name="title" i18n:translate="">Publication</property>
+  <property name="title" i18n:translate="">Archive</property>
   <property name="description"
-   i18n:translate="">Publication Type</property>
+   i18n:translate="">Archive Type</property>
   <property name="icon_expr">string:${portal_url}/document_icon.png</property>
-  <property name="factory">publication</property>
+  <property name="factory">archive</property>
   <property name="global_allow">True</property>
   <property name="filter_content_types">False</property>
   <property name="allowed_content_types" />
   <property name="allow_discussion">False</property>
 
   <!-- schema and class used for content items -->
-  <property name="schema">mazu.content.publication.IPublication</property>
-  <property name="klass">mazu.content.publication.Publication</property>
+  <property name="schema">mazu.content.archive.IArchive</property>
+  <property name="klass">mazu.content.archive.Archive</property>
 
   <property name="behaviors">
    <element value="mazu.content.behaviors.shortname.INameFromCreationDate" />
