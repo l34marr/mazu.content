@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-17 09:14+0000\n"
+"POT-Creation-Date: 2014-01-15 13:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,18 @@ msgstr ""
 msgid "Ancient"
 msgstr ""
 
-#: ./publication.py:72
-#: ./publication_templates/view.pt:54
+#: ./archive_templates/view.pt:54
+#: ./profiles/default/types/Archive.xml
+#: ./publication.py:75
 msgid "Archive"
 msgstr ""
 
 #: ./vocabularies.py:34
 msgid "Archive DB"
+msgstr ""
+
+#: ./profiles/default/types/Archive.xml
+msgid "Archive Type"
 msgstr ""
 
 #: ./vocabularies.py:57
@@ -38,18 +43,29 @@ msgstr ""
 msgid "Arts"
 msgstr ""
 
-#: ./publication.py:37
-#: ./publication_templates/view.pt:19
+#: ./archive.py:81
+msgid "Attachment"
+msgstr ""
+
+#: ./archive.py:41
+#: ./archive_templates/view.pt:19
+#: ./publication.py:40
 msgid "Author"
 msgstr ""
 
-#: ./publication.py:62
-#: ./publication_templates/view.pt:44
+#: ./archive.py:76
+#: ./archive_templates/view.pt:59
+#: ./publication.py:65
 msgid "Body"
 msgstr ""
 
 #: ./vocabularies.py:13
 msgid "Book"
+msgstr ""
+
+#: ./publication.py:34
+#: ./publication_templates/view.pt:14
+msgid "Category"
 msgstr ""
 
 #: ./vocabularies.py:51
@@ -64,22 +80,22 @@ msgstr ""
 msgid "Comparison"
 msgstr ""
 
-#: ./publication.py:77
-#: ./publication_templates/view.pt:59
-msgid "Databases"
+#: ./publication.py:80
+#: ./publication_templates/view.pt:60
+msgid "Database"
 msgstr ""
 
-#: ./publication.py:47
+#: ./publication.py:50
 #: ./publication_templates/view.pt:29
 msgid "Date"
 msgstr ""
 
-#: ./publication.py:57
+#: ./publication.py:60
 #: ./publication_templates/view.pt:39
 msgid "Description"
 msgstr ""
 
-#: ./publication.py:42
+#: ./publication.py:45
 #: ./publication_templates/view.pt:24
 msgid "Distribution"
 msgstr ""
@@ -100,12 +116,31 @@ msgstr ""
 msgid "Foreign DB"
 msgstr ""
 
+#: ./archive.py:56
+#: ./archive_templates/view.pt:34
+msgid "Function"
+msgstr ""
+
 #: ./vocabularies.py:53
 msgid "History"
 msgstr ""
 
-#: ./publication.py:89
+#: ./archive_templates/view.pt:14
+msgid "ID"
+msgstr ""
+
+#: ./archive.py:36
+msgid "ID Number"
+msgstr ""
+
+#: ./archive.py:31
+#: ./publication.py:96
 msgid "Image"
+msgstr ""
+
+#: ./archive.py:71
+#: ./archive_templates/view.pt:49
+msgid "Institute"
 msgstr ""
 
 #: ./vocabularies.py:50
@@ -124,6 +159,11 @@ msgstr ""
 msgid "Mainland DB"
 msgstr ""
 
+#: ./archive.py:51
+#: ./archive_templates/view.pt:29
+msgid "Material"
+msgstr ""
+
 #: ./vocabularies.py:16
 msgid "Media"
 msgstr ""
@@ -138,6 +178,11 @@ msgstr ""
 
 #: ./vocabularies.py:20
 msgid "Paper"
+msgstr ""
+
+#: ./archive.py:66
+#: ./archive_templates/view.pt:44
+msgid "Period"
 msgstr ""
 
 #: ./vocabularies.py:19
@@ -160,7 +205,7 @@ msgstr ""
 msgid "Proceeding"
 msgstr ""
 
-#: ./profiles/default/types/publication.xml
+#: ./profiles/default/types/Publication.xml
 msgid "Publication"
 msgstr ""
 
@@ -168,11 +213,11 @@ msgstr ""
 msgid "Publication DB"
 msgstr ""
 
-#: ./profiles/default/types/publication.xml
+#: ./profiles/default/types/Publication.xml
 msgid "Publication Type"
 msgstr ""
 
-#: ./publication.py:52
+#: ./publication.py:55
 #: ./publication_templates/view.pt:34
 msgid "Publisher"
 msgstr ""
@@ -189,6 +234,11 @@ msgstr ""
 msgid "Ritual"
 msgstr ""
 
+#: ./archive.py:61
+#: ./archive_templates/view.pt:39
+msgid "Size"
+msgstr ""
+
 #: ./vocabularies.py:60
 msgid "Spread"
 msgstr ""
@@ -197,9 +247,9 @@ msgstr ""
 msgid "Straits"
 msgstr ""
 
-#: ./publication.py:83
-#: ./publication_templates/view.pt:64
-msgid "Studies"
+#: ./publication.py:88
+#: ./publication_templates/view.pt:69
+msgid "Study"
 msgstr ""
 
 #: ./vocabularies.py:14
@@ -210,17 +260,18 @@ msgstr ""
 msgid "Thesis"
 msgstr ""
 
-#: ./publication.py:27
+#: ./archive.py:27
+#: ./publication.py:30
 msgid "Title"
 msgstr ""
 
-#: ./publication.py:31
-#: ./publication_templates/view.pt:14
-msgid "Types"
+#: ./publication.py:70
+#: ./publication_templates/view.pt:49
+msgid "URL"
 msgstr ""
 
-#: ./publication.py:67
-#: ./publication_templates/view.pt:49
-msgid "URLs"
+#: ./archive.py:46
+#: ./archive_templates/view.pt:24
+msgid "Version"
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mazu.content\n"
-"POT-Creation-Date: 2013-10-17 09:14+0000\n"
-"PO-Revision-Date: 2013-10-17 17:15+0800\n"
+"POT-Creation-Date: 2014-01-15 13:26+0000\n"
+"PO-Revision-Date: 2014-01-15 21:30+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -18,14 +18,19 @@ msgstr ""
 msgid "Ancient"
 msgstr "古籍"
 
-#: ./publication.py:72
-#: ./publication_templates/view.pt:54
+#: ./archive_templates/view.pt:54
+#: ./profiles/default/types/Archive.xml
+#: ./publication.py:75
 msgid "Archive"
 msgstr "中心收藏"
 
 #: ./vocabularies.py:34
 msgid "Archive DB"
 msgstr "文獻中心典藏書刊目錄資料庫"
+
+#: ./profiles/default/types/Archive.xml
+msgid "Archive Type"
+msgstr "文物文獻資料表"
 
 #: ./vocabularies.py:57
 msgid "Argument"
@@ -35,19 +40,30 @@ msgstr "媽祖廟糾紛與爭論"
 msgid "Arts"
 msgstr "建築、藝術"
 
-#: ./publication.py:37
-#: ./publication_templates/view.pt:19
+#: ./archive.py:81
+msgid "Attachment"
+msgstr "電子檔案"
+
+#: ./archive.py:41
+#: ./archive_templates/view.pt:19
+#: ./publication.py:40
 msgid "Author"
 msgstr "作者"
 
-#: ./publication.py:62
-#: ./publication_templates/view.pt:44
+#: ./archive.py:76
+#: ./archive_templates/view.pt:59
+#: ./publication.py:65
 msgid "Body"
 msgstr "詳細介紹"
 
 #: ./vocabularies.py:13
 msgid "Book"
 msgstr "書籍"
+
+#: ./publication.py:34
+#: ./publication_templates/view.pt:14
+msgid "Category"
+msgstr "資料型態"
 
 #: ./vocabularies.py:51
 msgid "Classic"
@@ -61,22 +77,22 @@ msgstr "媽祖信仰與社區組織"
 msgid "Comparison"
 msgstr "媽祖文化與比較研究"
 
-#: ./publication.py:77
-#: ./publication_templates/view.pt:59
-msgid "Databases"
+#: ./publication.py:80
+#: ./publication_templates/view.pt:60
+msgid "Database"
 msgstr "資料庫分類"
 
-#: ./publication.py:47
+#: ./publication.py:50
 #: ./publication_templates/view.pt:29
 msgid "Date"
 msgstr "出版日期"
 
-#: ./publication.py:57
+#: ./publication.py:60
 #: ./publication_templates/view.pt:39
 msgid "Description"
 msgstr "介紹摘要"
 
-#: ./publication.py:42
+#: ./publication.py:45
 #: ./publication_templates/view.pt:24
 msgid "Distribution"
 msgstr "書刊資訊"
@@ -97,13 +113,32 @@ msgstr "民間信仰研究論著目錄資料庫"
 msgid "Foreign DB"
 msgstr "外文期刊論著目次資料庫"
 
+#: ./archive.py:56
+#: ./archive_templates/view.pt:34
+msgid "Function"
+msgstr "功能"
+
 #: ./vocabularies.py:53
 msgid "History"
 msgstr "歷史、事蹟與傳說"
 
-#: ./publication.py:89
+#: ./archive_templates/view.pt:14
+msgid "ID"
+msgstr "編號"
+
+#: ./archive.py:36
+msgid "ID Number"
+msgstr "編號"
+
+#: ./archive.py:31
+#: ./publication.py:96
 msgid "Image"
 msgstr "影像"
+
+#: ./archive.py:71
+#: ./archive_templates/view.pt:49
+msgid "Institute"
+msgstr "館藏位置"
 
 #: ./vocabularies.py:50
 msgid "Introduction"
@@ -121,6 +156,11 @@ msgstr "媽祖研究論著目錄資料庫"
 msgid "Mainland DB"
 msgstr "文獻中心典藏大陸期刊目錄索引資料庫"
 
+#: ./archive.py:51
+#: ./archive_templates/view.pt:29
+msgid "Material"
+msgstr "材質"
+
 #: ./vocabularies.py:16
 msgid "Media"
 msgstr "影音資料"
@@ -136,6 +176,11 @@ msgstr "其他"
 #: ./vocabularies.py:20
 msgid "Paper"
 msgstr "單篇論文"
+
+#: ./archive.py:66
+#: ./archive_templates/view.pt:44
+msgid "Period"
+msgstr "年代"
 
 #: ./vocabularies.py:19
 msgid "Periodical"
@@ -157,7 +202,7 @@ msgstr "媽祖信仰與政治"
 msgid "Proceeding"
 msgstr "會議論文集"
 
-#: ./profiles/default/types/publication.xml
+#: ./profiles/default/types/Publication.xml
 msgid "Publication"
 msgstr "出版品"
 
@@ -165,11 +210,11 @@ msgstr "出版品"
 msgid "Publication DB"
 msgstr "文獻中心出版品全文資料庫"
 
-#: ./profiles/default/types/publication.xml
+#: ./profiles/default/types/Publication.xml
 msgid "Publication Type"
 msgstr "出版品表單"
 
-#: ./publication.py:52
+#: ./publication.py:55
 #: ./publication_templates/view.pt:34
 msgid "Publisher"
 msgstr "出版者"
@@ -186,6 +231,11 @@ msgstr "宗教研究論著目錄資料庫"
 msgid "Ritual"
 msgstr "儀式與祭典"
 
+#: ./archive.py:61
+#: ./archive_templates/view.pt:39
+msgid "Size"
+msgstr "尺寸"
+
 #: ./vocabularies.py:60
 msgid "Spread"
 msgstr "信仰的傳播"
@@ -194,9 +244,9 @@ msgstr "信仰的傳播"
 msgid "Straits"
 msgstr "兩岸交流"
 
-#: ./publication.py:83
-#: ./publication_templates/view.pt:64
-msgid "Studies"
+#: ./publication.py:88
+#: ./publication_templates/view.pt:69
+msgid "Study"
 msgstr "媽祖研究資料分類"
 
 #: ./vocabularies.py:14
@@ -207,17 +257,18 @@ msgstr "寺廟出版品"
 msgid "Thesis"
 msgstr "碩博士論文"
 
-#: ./publication.py:27
+#: ./archive.py:27
+#: ./publication.py:30
 msgid "Title"
 msgstr "資料名稱"
 
-#: ./publication.py:31
-#: ./publication_templates/view.pt:14
-msgid "Types"
-msgstr "資料型態"
-
-#: ./publication.py:67
+#: ./publication.py:70
 #: ./publication_templates/view.pt:49
-msgid "URLs"
+msgid "URL"
 msgstr "線上電子資源"
+
+#: ./archive.py:46
+#: ./archive_templates/view.pt:24
+msgid "Version"
+msgstr "版本"
 

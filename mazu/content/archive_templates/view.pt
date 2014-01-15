@@ -41,7 +41,7 @@
 </div>
 
 <div tal:condition="context/period">
-<tal:field i18n:translate="">period</tal:field>:
+<tal:field i18n:translate="">Period</tal:field>:
 <span tal:replace="context/period" />
 </div>
 
