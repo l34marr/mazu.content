@@ -10,9 +10,9 @@
 <metal:main fill-slot="content-core">
 <metal:content-core define-macro="content-core">
 
-<div tal:condition="context/type">
-<tal:field i18n:translate="">Types</tal:field>:
-<span tal:replace="context/type" />
+<div tal:condition="context/category">
+<tal:field i18n:translate="">Category</tal:field>:
+<span tal:replace="python: view.t_title(context.category,'category')" />
 </div>
 
 <div tal:condition="context/author">
@@ -46,7 +46,7 @@
 </div>
 
 <div tal:condition="context/url">
-<tal:field i18n:translate="">URLs</tal:field>:
+<tal:field i18n:translate="">URL</tal:field>:
 <span tal:replace="context/url" />
 </div>
 
@@ -57,18 +57,18 @@
 
 <div tal:define="items context/database|nothing"
      tal:condition="items">
-<tal:field i18n:translate="">Databases</tal:field>:
+<tal:field i18n:translate="">Database</tal:field>:
 <tal:items repeat="item items">
-  <span tal:replace="item">Value</span>
+  <span tal:replace="python: view.t_title(item,'database')">Value</span>
   <span class="separator" tal:condition="not: repeat/item/end">,</span>
 </tal:items>
 </div>
 
 <div tal:define="items context/study|nothing"
      tal:condition="items">
-<tal:field i18n:translate="">Studies</tal:field>:
+<tal:field i18n:translate="">Study</tal:field>:
 <tal:items repeat="item items">
-  <span tal:replace="item">Value</span>
+  <span tal:replace="python: view.t_title(item,'study')">Value</span>
   <span class="separator" tal:condition="not: repeat/item/end">,</span>
 </tal:items>
 </div>

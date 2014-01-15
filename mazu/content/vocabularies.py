@@ -4,8 +4,8 @@ from zope.schema.vocabulary import SimpleVocabulary
 from zope.schema.vocabulary import SimpleTerm
 from mazu.content import MessageFactory as _
 
-class types(object):
-    """ types
+class category(object):
+    """category
     """
     implements(IVocabularyFactory)
     def __call__(self, context=None):
@@ -22,10 +22,10 @@ class types(object):
             SimpleTerm(value='other', title=_(u'Other')),
         )
         return SimpleVocabulary(items)
-typesFactory = types()
+categoryFactory = category()
 
-class databases(object):
-    """ databases
+class database(object):
+    """database
     """
     implements(IVocabularyFactory)
     def __call__(self, context=None):
@@ -39,10 +39,10 @@ class databases(object):
             SimpleTerm(value='foreign', title=_(u'Foreign DB')),
         )
         return SimpleVocabulary(items)
-databasesFactory = databases()
+databaseFactory = database()
 
-class studies(object):
-    """ studies
+class study(object):
+    """study
     """
     implements(IVocabularyFactory)
     def __call__(self, context=None):
@@ -67,4 +67,4 @@ class studies(object):
             SimpleTerm(value='other', title=_(u'Other')),
         )
         return SimpleVocabulary(items)
-studiesFactory = studies()
+studyFactory = study()

@@ -5,18 +5,18 @@
   i18n_domain="mazu.content">
 
   <utility
-    component=".vocabularies.typesFactory"
-    name="types"
+    component=".vocabularies.categoryFactory"
+    name="category"
     provides="zope.schema.interfaces.IVocabularyFactory" />
 
   <utility
-    component=".vocabularies.databasesFactory"
-    name="databases"
+    component=".vocabularies.databaseFactory"
+    name="database"
     provides="zope.schema.interfaces.IVocabularyFactory" />
 
   <utility
-    component=".vocabularies.studiesFactory"
-    name="studies"
+    component=".vocabularies.studyFactory"
+    name="study"
     provides="zope.schema.interfaces.IVocabularyFactory" />
 
 </configure>

@@ -6,6 +6,9 @@ from zope import schema
 from plone.app.textfield import RichText
 from plone.namedfile.field import NamedBlobImage
 
+from zope.component import getUtility
+from zope.schema.interfaces import IVocabularyFactory
+
 from mazu.content import MessageFactory as _
 
 # Interface class; used to define content-type schema.
@@ -27,9 +30,9 @@ class IPublication(form.Schema):
         title=_(u"Title"),
     )
 
-    type = schema.Choice(
-        title=_(u"Types"),
-        vocabulary='types',
+    category = schema.Choice(
+        title=_(u"Category"),
+        vocabulary='category',
         required=False,
     )
 
@@ -64,7 +67,7 @@ class IPublication(form.Schema):
     )
 
     url = schema.Text(
-        title=_(u"URLs"),
+        title=_(u"URL"),
         required=False,
     )
 
@@ -74,17 +77,17 @@ class IPublication(form.Schema):
     )
 
     database = schema.List(
-        title=_(u"Databases"),
+        title=_(u"Database"),
         value_type=schema.Choice(
-            vocabulary='databases',
+            vocabulary='database',
             required=False,
         ),
     )
 
     study = schema.List(
-        title=_(u"Studies"),
+        title=_(u"Study"),
         value_type=schema.Choice(
-            vocabulary='studies',
+            vocabulary='study',
             required=False,
         ),
     )
@@ -119,4 +122,9 @@ class View(grok.View):
     grok.context(IPublication)
     grok.require('zope2.View')
     grok.name('view')
+
+    def t_title(self, value, vocab):
+        factory = getUtility(IVocabularyFactory, vocab)
+        vocabulary = factory(self)
+        return vocabulary.getTerm(value).title
 
