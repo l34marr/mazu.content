@@ -78,17 +78,17 @@ class IPublication(form.Schema):
 
     database = schema.List(
         title=_(u"Database"),
+        required=False,
         value_type=schema.Choice(
             vocabulary='database',
-            required=False,
         ),
     )
 
     study = schema.List(
         title=_(u"Study"),
+        required=False,
         value_type=schema.Choice(
             vocabulary='study',
-            required=False,
         ),
     )
 

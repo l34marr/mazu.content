@@ -9,7 +9,7 @@
   <property name="description"
    i18n:translate="">Publication Type</property>
   <property name="icon_expr">string:${portal_url}/document_icon.png</property>
-  <property name="factory">publication</property>
+  <property name="factory">Publication</property>
   <property name="global_allow">True</property>
   <property name="filter_content_types">False</property>
   <property name="allowed_content_types" />
