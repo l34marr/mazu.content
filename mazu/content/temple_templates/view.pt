@@ -1,0 +1,52 @@
+<html lang="en"
+ xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ xmlns:tal="http://xml.zope.org/namespaces/tal"
+ xmlns:metal="http://xml.zope.org/namespaces/metal"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+ metal:use-macro="context/main_template/macros/master"
+ i18n:domain="mazu.content">
+<body>
+
+<metal:main fill-slot="content-core">
+  <metal:content-core define-macro="content-core">
+
+<div tal:condition="context/position">
+  <label i18n:translate="">Position Type</label>:
+  <span tal:replace="context/position" />
+</div>
+
+<div tal:condition="context/facing">
+  <label i18n:translate="">Facing</label>:
+  <span tal:replace="context/facing" />
+</div>
+
+<div tal:condition="context/deity_main">
+  <label i18n:translate="">Deity Main</label>:
+  <span tal:replace="context/deity_main" />
+</div>
+
+<div tal:condition="context/deity_sub">
+  <label i18n:translate="">Deity Subsidiary</label>:
+  <span tal:replace="context/deity_sub" />
+</div>
+
+<div tal:condition="context/religion">
+  <label i18n:translate="">Religion</label>:
+  <span tal:replace="context/religion" />
+</div>
+
+<div tal:condition="context/building">
+  <label i18n:translate="">Building</label>:
+  <span tal:replace="context/building" />
+</div>
+
+<div tal:condition="context/era">
+  <label i18n:translate="">Common Era</label>:
+  <span tal:replace="context/era" />
+</div>
+
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
