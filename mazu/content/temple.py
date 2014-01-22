@@ -220,6 +220,118 @@ class ITemple(form.Schema):
         allowed_mime_types=('text/html','text/plain',),
     )
 
+    fill_in = schema.TextLine(
+        title=_(u"Filing Person"),
+        required=False,
+    )
+
+    fill_date = schema.TextLine(
+        title=_(u"Filling Date"),
+        required=False,
+    )
+
+    jstq = schema.TextLine(
+        title=_(u"JiSiZuQun"),
+        required=False,
+    )
+
+    jstq_o = schema.TextLine(
+        title=_(u"JiSiZuQun Other"),
+        required=False,
+    )
+
+    jsfw = RichText(
+        title=_(u"JiSiFanWei"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    xyfw = RichText(
+        title=_(u"XinYangFanWei"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    flxt = schema.TextLine(
+        title=_(u"FenLingXiTong"),
+        required=False,
+    )
+
+    flxt_o = schema.TextLine(
+        title=_(u"FenLingXiTong Other"),
+        required=False,
+    )
+
+    ymmy = schema.TextLine(
+        title=_(u"YiMingMiaoYu"),
+        required=False,
+    )
+
+    ymmy_o = schema.TextLine(
+        title=_(u"YiMingMiaoYu Other"),
+        required=False,
+    )
+
+    xhly = schema.TextLine(
+        title=_(u"XiangHuoLaiYuan"),
+        required=False,
+    )
+
+    xhly_o = schema.TextLine(
+        title=_(u"XiangHuoLaiYuan Other"),
+        required=False,
+    )
+
+    nlqs = schema.TextLine(
+        title=_(u"NianLiQingSheng"),
+        required=False,
+    )
+
+    nlqs_o = schema.TextLine(
+        title=_(u"NianLiQingSheng Other"),
+        required=False,
+    )
+
+    wyxx = schema.TextLine(
+        title=_(u"WangYeXianXiang"),
+        required=False,
+    )
+
+    wyxx_o = schema.TextLine(
+        title=_(u"WangYeXianXiang Other"),
+        required=False,
+    )
+
+    medicine = schema.TextLine(
+        title=_(u"Medicine Divination"),
+        required=False,
+    )
+
+    luck = schema.TextLine(
+        title=_(u"Luck Divination"),
+        required=False,
+    )
+
+    organization = RichText(
+        title=_(u"Believer Organization"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    desc_o = RichText(
+        title=_(u"Description Other"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
 
 # Custom content-type class; objects created for this content type will
 # be instances of this class. Use this class to add content-type specific

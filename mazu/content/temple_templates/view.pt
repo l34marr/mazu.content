@@ -16,7 +16,7 @@
 </div>
 
 <div tal:condition="context/facing">
-  <label i18n:translate="">Facing</label>:
+  <label i18n:translate="">Sitting Facing</label>:
   <span tal:replace="context/facing" />
 </div>
 
@@ -31,18 +31,148 @@
 </div>
 
 <div tal:condition="context/religion">
-  <label i18n:translate="">Religion</label>:
+  <label i18n:translate="">Religion Type</label>:
   <span tal:replace="context/religion" />
 </div>
 
 <div tal:condition="context/building">
-  <label i18n:translate="">Building</label>:
+  <label i18n:translate="">Building Type</label>:
   <span tal:replace="context/building" />
+</div>
+
+<div tal:condition="context/building_o">
+  <label i18n:translate="">Building Type Other</label>:
+  <span tal:replace="context/building_o" />
+</div>
+
+<div tal:condition="context/registered">
+  <label i18n:translate="">Registered Name</label>:
+  <span tal:replace="context/registered" />
+</div>
+
+<div tal:condition="context/funding">
+  <label i18n:translate="">Funding Type</label>:
+  <span tal:replace="context/funding" />
+</div>
+
+<div tal:condition="context/funding_o">
+  <label i18n:translate="">Funding Type Other</label>:
+  <span tal:replace="context/funding_o" />
+</div>
+
+<div tal:condition="context/organizing">
+  <label i18n:translate="">Organizing Type</label>:
+  <span tal:replace="context/organizing" />
+</div>
+
+<div tal:condition="context/organizing_o">
+  <label i18n:translate="">Organizing Type Other</label>:
+  <span tal:replace="context/organizing_o" />
+</div>
+
+<div tal:condition="context/address">
+  <label i18n:translate="">Address</label>:
+  <span tal:replace="context/address" />
+</div>
+
+<div tal:condition="context/in_charge">
+  <label i18n:translate="">Person In Charge</label>:
+  <span tal:replace="context/in_charge" />
+</div>
+
+<div tal:condition="context/tel">
+  <label i18n:translate="">Telephone</label>:
+  <span tal:replace="context/tel" />
+</div>
+
+<div tal:condition="context/homepage">
+  <label i18n:translate="">Homepage</label>:
+  <span tal:replace="context/homepage" />
 </div>
 
 <div tal:condition="context/era">
   <label i18n:translate="">Common Era</label>:
   <span tal:replace="context/era" />
+</div>
+
+<div tal:condition="context/year_accuracy">
+  <label i18n:translate="">Year Accuracy</label>:
+  <span tal:replace="context/year_accuracy" />
+</div>
+
+<div tal:condition="context/history">
+  <label i18n:translate="">Establishment History</label>:
+  <span tal:replace="structure context/history/output" />
+</div>
+
+<div tal:condition="context/era_1">
+  <label i18n:translate="">Established Year by Taiwan Temple Collection</label>:
+  <span tal:replace="context/era_1" />
+</div>
+
+<div tal:condition="context/era_2">
+  <label i18n:translate="">Established Year by Taiwan Temple Overview</label>:
+  <span tal:replace="context/era_2" />
+</div>
+
+<div tal:condition="context/era_ref">
+  <label i18n:translate="">References on Establishment</label>:
+  <span tal:replace="structure context/era_ref/output" />
+</div>
+
+<div tal:condition="context/deity_accompany">
+  <label i18n:translate="">Deities Accompany</label>:
+  <span tal:replace="structure context/deity_accompany/output" />
+</div>
+
+<div tal:condition="context/worship">
+  <label i18n:translate="">Worship</label>:
+  <span tal:replace="structure context/worship/output" />
+</div>
+
+<div tal:condition="context/introduction">
+  <label i18n:translate="">Introduction</label>:
+  <span tal:replace="structure context/introduction/output" />
+</div>
+
+<div tal:condition="context/overview">
+  <label i18n:translate="">Overview</label>:
+  <span tal:replace="structure context/overview/output" />
+</div>
+
+<div tal:condition="context/antiquity">
+  <label i18n:translate="">Antiquity</label>:
+  <span tal:replace="structure context/antiquity/output" />
+</div>
+
+<div tal:condition="context/narrate">
+  <label i18n:translate="">Narrate</label>:
+  <span tal:replace="structure context/narrate/output" />
+</div>
+
+<div tal:condition="context/non_narrate">
+  <label i18n:translate="">Non Narrate</label>:
+  <span tal:replace="structure context/non_narrate/output" />
+</div>
+
+<div tal:condition="context/academic">
+  <label i18n:translate="">Academic Works</label>:
+  <span tal:replace="structure context/academic/output" />
+</div>
+
+<div tal:condition="context/literature">
+  <label i18n:translate="">Literature Reference</label>:
+  <span tal:replace="structure context/literature/output" />
+</div>
+
+<div tal:condition="context/fill_in">
+  <label i18n:translate="">Filling Person</label>:
+  <span tal:replace="context/fill_in" />
+</div>
+
+<div tal:condition="context/fill_date">
+  <label i18n:translate="">Filling Date</label>:
+  <span tal:replace="context/fill_date" />
 </div>
 
   </metal:content-core>
