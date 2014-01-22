@@ -122,10 +122,104 @@ class ITemple(form.Schema):
         required=False,
     )
 
-    facing = schema.TextLine(
-        title=_(u"Facing"),
+    history = RichText(
+        title=_(u"Establishment History"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    era_1 = schema.TextLine(
+        title=_(u"Established Year by Taiwan Temple Collection"),
         required=False,
     )
+
+    era_2 = schema.TextLine(
+        title=_(u"Established Year by Taiwan Temple Overview"),
+        required=False,
+    )
+
+    era_ref = RichText(
+        title=_(u"References on Establishment"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    deity_accompany = RichText(
+        title=_(u"Deities Accompany"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    worship = RichText(
+        title=_(u"Worship"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    introduction = RichText(
+        title=_(u"introduction"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    overview = RichText(
+        title=_(u"Building Overview"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    antiquity = RichText(
+        title=_(u"Antiquities"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    narrate = RichText(
+        title=_(u"Narrate"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    non_narrate = RichText(
+        title=_(u"Non Narrate"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    academic = RichText(
+        title=_(u"Academic Works"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
+    literature = RichText(
+        title=_(u"Literature Reference"),
+        required=False,
+        default_mime_type='text/html',
+        output_mime_type='text/html',
+        allowed_mime_types=('text/html','text/plain',),
+    )
+
 
 # Custom content-type class; objects created for this content type will
 # be instances of this class. Use this class to add content-type specific
