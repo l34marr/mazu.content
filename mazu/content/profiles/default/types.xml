@@ -9,4 +9,5 @@
  <object name="Publication" meta_type="Dexterity FTI" />
  <object name="Archive" meta_type="Dexterity FTI" />
  <object name="Temple" meta_type="Dexterity FTI" />
+ <object name="Photo" meta_type="Dexterity FTI" />
 </object>

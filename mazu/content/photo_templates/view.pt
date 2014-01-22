@@ -1,0 +1,77 @@
+<html lang="en"
+ xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ xmlns:tal="http://xml.zope.org/namespaces/tal"
+ xmlns:metal="http://xml.zope.org/namespaces/metal"
+ xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+ metal:use-macro="context/main_template/macros/master"
+ i18n:domain="mazu.content">
+<body>
+
+<metal:main fill-slot="content-core">
+  <metal:content-core define-macro="content-core">
+
+<div tal:condition="context/category">
+  <label i18n:translate="">Category</label>:
+  <span tal:replace="context/category" />
+</div>
+
+<div tal:condition="context/attachesTo">
+  <label i18n:translate="">Attached To</label>:
+  <span tal:replace="context/attachesTo" />
+</div>
+
+<div tal:condition="context/cou">
+  <label i18n:translate="">County</label>:
+  <span tal:replace="context/cou" />
+</div>
+
+<div tal:condition="context/tow">
+  <label i18n:translate="">Town</label>:
+  <span tal:replace="context/tow" />
+</div>
+
+<div tal:condition="context/vil">
+  <label i18n:translate="">Village</label>:
+  <span tal:replace="context/vil" />
+</div>
+
+<div tal:condition="context/year">
+  <label i18n:translate="">Photo Year</label>:
+  <span tal:replace="context/year" />
+</div>
+
+<div tal:condition="context/month">
+  <label i18n:translate="">Photo Month</label>:
+  <span tal:replace="context/month" />
+</div>
+
+<div tal:condition="context/day">
+  <label i18n:translate="">Photo Day</label>:
+  <span tal:replace="context/day" />
+</div>
+
+<div tal:condition="context/owner_name">
+  <label i18n:translate="">Owner Name</label>:
+  <span tal:replace="context/owner_name" />
+</div>
+
+<div tal:condition="context/owner_org">
+  <label i18n:translate="">Owner Organization</label>:
+  <span tal:replace="context/owner_org" />
+</div>
+
+<div tal:condition="context/owner_title">
+  <label i18n:translate="">Owner Title</label>:
+  <span tal:replace="context/owner_title" />
+</div>
+
+<div tal:condition="context/reference">
+  <label i18n:translate="">Reference</label>:
+  <span tal:replace="structure context/reference/output" />
+</div>
+
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
