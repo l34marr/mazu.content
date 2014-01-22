@@ -11,13 +11,11 @@ from zope.schema.interfaces import IVocabularyFactory
 
 from mazu.content import MessageFactory as _
 
-# Interface class; used to define content-type schema.
 
 class IPublication(form.Schema):
+    """Publication Interface Class to Define Content-Type Schema
     """
-    MaZu Publication Type
-    """
-    
+
     # If you want a schema-defined interface, delete the form.model
     # line below and delete the matching file in the models sub-directory.
     # If you want a model-based interface, edit
@@ -104,7 +102,7 @@ class IPublication(form.Schema):
 
 class Publication(dexterity.Item):
     grok.implements(IPublication)
-    
+
     # Add your class methods and properties here
 
 

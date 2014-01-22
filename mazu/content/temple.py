@@ -137,14 +137,6 @@ class Temple(dexterity.Container):
 
     # Add your class methods and properties here
 
-@indexer(ITemple)
-def lcityIndexer(obj):
-    if len(obj.address) >= 3 and obj.address[2] in (u'\u5e02', u'\u7e23'):
-        return obj.address[:3]
-    else:
-        return None
-grok.global_adapter(lcityIndexer, name='lcity')
-
 
 # View class
 # The view will automatically use a similarly named template in

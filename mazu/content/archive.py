@@ -8,13 +8,11 @@ from plone.namedfile.field import NamedBlobImage, NamedBlobFile
 
 from mazu.content import MessageFactory as _
 
-# Interface class; used to define content-type schema.
 
 class IArchive(form.Schema):
+    """Archive Interface Class to Define Content-Type Schema
     """
-    MaZu Archive Type
-    """
-    
+
     # If you want a schema-defined interface, delete the form.model
     # line below and delete the matching file in the models sub-directory.
     # If you want a model-based interface, edit
@@ -89,7 +87,7 @@ class IArchive(form.Schema):
 
 class Archive(dexterity.Item):
     grok.implements(IArchive)
-    
+
     # Add your class methods and properties here
 
 
