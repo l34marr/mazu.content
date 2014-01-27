@@ -1,5 +1,7 @@
 from five import grok
-from plone.directives import dexterity, form
+from plone.directives import form
+from plone.dexterity.content import Item
+from plone.app.contenttypes.interfaces import IImage
 
 from zope import schema
 from plone.app.textfield import RichText
@@ -9,7 +11,7 @@ from plone.namedfile.field import NamedBlobImage
 from mazu.content import MessageFactory as _
 
 
-class IPhoto(form.Schema, IImageScaleTraversable):
+class IPhoto(form.Schema):
     """Photo Interface Class to Define Content-Type Schema
     """
 
@@ -34,11 +36,7 @@ class IPhoto(form.Schema, IImageScaleTraversable):
     category = schema.List(
         title=_(u"Category"),
         required=False,
-    )
-
-    attachesTo = schema.List(
-        title=_(u"Attached To"),
-        required=False,
+        value_type=schema.Choice(values=['temple','bixiewu','wuying'])
     )
 
     cou = schema.TextLine(
@@ -87,7 +85,7 @@ class IPhoto(form.Schema, IImageScaleTraversable):
     )
 
     reference = RichText(
-        title=_(u"Facing"),
+        title=_(u"Reference"),
         required=False,
     )
 
@@ -96,8 +94,8 @@ class IPhoto(form.Schema, IImageScaleTraversable):
 # methods and properties. Put methods that are mainly useful for rendering
 # in separate view classes.
 
-class Photo(dexterity.Item):
-    grok.implements(IPhoto)
+class Photo(Item):
+    grok.implements(IPhoto,IImage)
 
     # Add your class methods and properties here
 
