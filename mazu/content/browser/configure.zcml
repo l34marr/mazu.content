@@ -1,0 +1,55 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="mazu.content">
+
+  <browser:view
+      name="image_large"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+  <browser:view
+      name="image_preview"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+  <browser:view
+      name="image_mini"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+  <browser:view
+      name="image_thumb"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+  <browser:view
+      name="image_tile"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+  <browser:view
+      name="image_icon"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+  <browser:view
+      name="image_listing"
+      for="..photo.IPhoto"
+      class=".photo_scale_alias.PhotoScaleAlias"
+      permission="zope2.View"
+      />
+
+</configure>
