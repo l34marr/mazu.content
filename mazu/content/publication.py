@@ -41,7 +41,7 @@ class IPublication(form.Schema):
         required=False,
     )
 
-    distribution = schema.TextLine(
+    distribution = schema.Text(
         title=_(u"Distribution"),
         required=False,
     )
