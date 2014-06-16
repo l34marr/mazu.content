@@ -12,7 +12,7 @@
 
 <div tal:condition="context/category">
 <tal:field i18n:translate="">Category</tal:field>:
-<span tal:replace="python: view.t_title(context.category,'category')" />
+<span tal:replace="python: view.t_title(context.category,'publication')" />
 </div>
 
 <div tal:condition="context/author">

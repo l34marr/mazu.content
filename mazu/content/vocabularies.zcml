@@ -5,8 +5,8 @@
   i18n_domain="mazu.content">
 
   <utility
-    component=".vocabularies.categoryFactory"
-    name="category"
+    component=".vocabularies.publicationFactory"
+    name="publication"
     provides="zope.schema.interfaces.IVocabularyFactory" />
 
   <utility

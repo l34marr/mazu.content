@@ -11,6 +11,7 @@ from zope.schema.interfaces import IVocabularyFactory
 
 from mazu.content import MessageFactory as _
 
+# Interface class; used to define content-type schema.
 
 class IPublication(form.Schema):
     """Publication Interface Class to Define Content-Type Schema
@@ -30,7 +31,7 @@ class IPublication(form.Schema):
 
     category = schema.Choice(
         title=_(u"Category"),
-        vocabulary='category',
+        vocabulary='publication',
         required=False,
     )
 
