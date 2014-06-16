@@ -5,6 +5,7 @@ from zope import schema
 
 from plone.app.textfield import RichText
 from plone.namedfile.field import NamedBlobImage
+from plone.namedfile.field import NamedBlobFile
 
 from zope.component import getUtility
 from zope.schema.interfaces import IVocabularyFactory
@@ -93,6 +94,11 @@ class IPublication(form.Schema):
 
     image = NamedBlobImage(
         title=_(u"Image"),
+        required=False,
+    )
+
+    file = NamedBlobFile(
+        title=_(u"File"),
         required=False,
     )
 
