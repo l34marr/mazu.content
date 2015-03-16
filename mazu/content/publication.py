@@ -26,6 +26,10 @@ class IPublication(form.Schema):
     
     #form.model("models/publication.xml")
 
+    id = schema.TextLine(
+        title=_(u"Id"),
+    )
+
     title = schema.TextLine(
         title=_(u"Title"),
     )

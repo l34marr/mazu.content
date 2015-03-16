@@ -20,7 +20,7 @@
   <property name="klass">mazu.content.publication.Publication</property>
 
   <property name="behaviors">
-   <element value="mazu.content.behaviors.shortname.INameFromCreationDate" />
+   <element value="mazu.content.behaviors.shortname.INameFromId" />
    <!-- IReferenceable might not be available, but it will not break. -->
    <element value="plone.app.referenceablebehavior.referenceable.IReferenceable" />
    </property>
