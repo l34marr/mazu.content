@@ -44,3 +44,21 @@ class NameFromCreationDate(object):
     def __init__(self, context):
         self.context = context
 
+
+class INameFromId(Interface):
+    """Enable Name from Id Behavior
+    """
+
+class NameFromId(object):
+    implements(INameFromTitle)
+    adapts(INameFromId)
+
+    def __init__(self, context):
+        self.context = context
+
+    def __new__(cls, context):
+        instance = super(NameFromId, cls).__new__(cls)
+        uid = context.id
+        instance.title = '%s' % (uid)
+        return instance
+
