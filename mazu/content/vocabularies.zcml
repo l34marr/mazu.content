@@ -5,6 +5,51 @@
   i18n_domain="mazu.content">
 
   <utility
+    component=".vocabularies.dataSrcFactory"
+    name="data_src"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.positionFactory"
+    name="position"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.deityFactory"
+    name="deity"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.religionFactory"
+    name="religion"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.buildingFactory"
+    name="building"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.fundingFactory"
+    name="funding"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.organizingFactory"
+    name="organizing"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.accrcyYFactory"
+    name="accrcy_y"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
+    component=".vocabularies.attachesToFactory"
+    name="attachesTo"
+    provides="zope.schema.interfaces.IVocabularyFactory" />
+
+  <utility
     component=".vocabularies.publicationFactory"
     name="publication"
     provides="zope.schema.interfaces.IVocabularyFactory" />
