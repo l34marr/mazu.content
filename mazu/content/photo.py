@@ -24,7 +24,12 @@ class IPhoto(form.Schema):
     #form.model("models/photo.xml")
 
     title = schema.TextLine(
-        title=_(u"Title"),
+        title=_(u'title_photo', default=u"Title"),
+        required=False,
+    )
+
+    description = schema.Text(
+        title=_(u"Description"),
         required=False,
     )
 
@@ -36,7 +41,17 @@ class IPhoto(form.Schema):
     category = schema.List(
         title=_(u"Category"),
         required=False,
-        value_type=schema.Choice(values=['temple','bixiewu','wuying'])
+        value_type=schema.Choice(
+            values=['temple','bixiewu','wuying']
+        )
+    )
+
+    attachesTo = schema.List(
+        title=_(u"Attached To"),
+        required=False,
+        value_type=schema.Choice(
+            vocabulary='attachesTo',
+        )
     )
 
     cou = schema.TextLine(
