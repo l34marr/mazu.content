@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-15 13:26+0000\n"
+"POT-Creation-Date: 2015-03-16 07:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,40 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: mazu.content\n"
 
-#: ./vocabularies.py:17
+#: ./vocabularies.py:15
+msgid "Academic"
+msgstr ""
+
+#: ./temple.py:218
+#: ./temple_templates/view.pt:161
+msgid "Academic Works"
+msgstr ""
+
+#: ./temple.py:105
+#: ./temple_templates/view.pt:76
+msgid "Address"
+msgstr ""
+
+#: ./vocabularies.py:157
 msgid "Ancient"
+msgstr ""
+
+#: ./temple.py:194
+#: ./vocabularies.py:139
+msgid "Antiquities"
+msgstr ""
+
+#: ./temple_templates/view.pt:146
+msgid "Antiquity"
 msgstr ""
 
 #: ./archive_templates/view.pt:54
 #: ./profiles/default/types/Archive.xml
-#: ./publication.py:75
+#: ./publication.py:79
 msgid "Archive"
 msgstr ""
 
-#: ./vocabularies.py:34
+#: ./vocabularies.py:174
 msgid "Archive DB"
 msgstr ""
 
@@ -35,181 +58,498 @@ msgstr ""
 msgid "Archive Type"
 msgstr ""
 
-#: ./vocabularies.py:57
+#: ./vocabularies.py:197
 msgid "Argument"
 msgstr ""
 
-#: ./vocabularies.py:65
+#: ./vocabularies.py:205
 msgid "Arts"
 msgstr ""
 
-#: ./archive.py:81
+#: ./photo.py:50
+msgid "Attached To"
+msgstr ""
+
+#: ./archive.py:79
 msgid "Attachment"
 msgstr ""
 
-#: ./archive.py:41
+#: ./archive.py:39
 #: ./archive_templates/view.pt:19
-#: ./publication.py:40
+#: ./publication.py:44
 msgid "Author"
 msgstr ""
 
-#: ./archive.py:76
+#: ./temple.py:330
+msgid "Believer Organization"
+msgstr ""
+
+#: ./archive.py:74
 #: ./archive_templates/view.pt:59
-#: ./publication.py:65
+#: ./publication.py:69
 msgid "Body"
 msgstr ""
 
-#: ./vocabularies.py:13
+#: ./vocabularies.py:153
 msgid "Book"
 msgstr ""
 
-#: ./publication.py:34
-#: ./publication_templates/view.pt:14
+#: ./vocabularies.py:55
+msgid "Buddhism"
+msgstr ""
+
+#: ./temple.py:186
+#: ./temple_templates/view.pt:141
+#: ./vocabularies.py:138
+msgid "Building Overview"
+msgstr ""
+
+#: ./temple.py:66
+#: ./temple_templates/view.pt:41
+msgid "Building Type"
+msgstr ""
+
+#: ./temple.py:72
+#: ./temple_templates/view.pt:46
+msgid "Building Type Other"
+msgstr ""
+
+#: ./photo.py:42
+#: ./photo_templates/view.pt:14
+#: ./publication.py:38
 msgid "Category"
 msgstr ""
 
-#: ./vocabularies.py:51
+#: ./vocabularies.py:191
 msgid "Classic"
 msgstr ""
 
-#: ./vocabularies.py:62
+#: ./vocabularies.py:107
+msgid "Committee"
+msgstr ""
+
+#: ./temple.py:125
+#: ./temple_templates/view.pt:96
+msgid "Common Era"
+msgstr ""
+
+#: ./vocabularies.py:202
 msgid "Community"
 msgstr ""
 
-#: ./vocabularies.py:52
+#: ./vocabularies.py:192
 msgid "Comparison"
 msgstr ""
 
-#: ./publication.py:80
-#: ./publication_templates/view.pt:60
+#: ./vocabularies.py:57
+msgid "Confucianism"
+msgstr ""
+
+#: ./photo.py:58
+#: ./photo_templates/view.pt:24
+msgid "County"
+msgstr ""
+
+#: ./temple.py:31
+msgid "Data Source"
+msgstr ""
+
+#: ./publication.py:84
+#: ./publication_templates/view.pt:56
 msgid "Database"
 msgstr ""
 
-#: ./publication.py:50
-#: ./publication_templates/view.pt:29
+#: ./publication.py:54
+#: ./publication_templates/view.pt:30
 msgid "Date"
 msgstr ""
 
-#: ./publication.py:60
-#: ./publication_templates/view.pt:39
+#: ./vocabularies.py:109
+msgid "Deacon"
+msgstr ""
+
+#: ./temple.py:162
+#: ./temple_templates/view.pt:126
+msgid "Deities Accompany"
+msgstr ""
+
+#: ./temple.py:48
+#: ./temple_templates/view.pt:24
+msgid "Deity Main"
+msgstr ""
+
+#: ./temple.py:54
+#: ./temple_templates/view.pt:31
+msgid "Deity Subsidiary"
+msgstr ""
+
+#: ./photo.py:32
+#: ./publication.py:64
 msgid "Description"
 msgstr ""
 
-#: ./publication.py:45
-#: ./publication_templates/view.pt:24
+#: ./temple.py:338
+msgid "Description Other"
+msgstr ""
+
+#: ./publication.py:49
+#: ./publication_templates/view.pt:25
 msgid "Distribution"
 msgstr ""
 
-#: ./vocabularies.py:64
+#: ./vocabularies.py:204
 msgid "Document"
 msgstr ""
 
-#: ./vocabularies.py:66
+#: ./vocabularies.py:206
 msgid "Economics"
 msgstr ""
 
-#: ./vocabularies.py:38
+#: ./temple.py:144
+#: ./temple_templates/view.pt:111
+msgid "Established Year by Taiwan Temple Collection"
+msgstr ""
+
+#: ./temple.py:149
+#: ./temple_templates/view.pt:116
+msgid "Established Year by Taiwan Temple Overview"
+msgstr ""
+
+#: ./temple.py:136
+#: ./temple_templates/view.pt:106
+#: ./vocabularies.py:135
+msgid "Establishment History"
+msgstr ""
+
+#: ./vocabularies.py:122
+msgid "Exact"
+msgstr ""
+
+#: ./temple.py:270
+msgid "FenLingXiTong"
+msgstr ""
+
+#: ./temple.py:275
+msgid "FenLingXiTong Other"
+msgstr ""
+
+#: ./vocabularies.py:16
+msgid "Fieldwork"
+msgstr ""
+
+#: ./publication.py:105
+msgid "File"
+msgstr ""
+
+#: ./temple.py:239
+#: ./temple_templates/view.pt:176
+msgid "Filling Date"
+msgstr ""
+
+#: ./temple.py:234
+#: ./temple_templates/view.pt:171
+msgid "Filling Person"
+msgstr ""
+
+#: ./vocabularies.py:75
+msgid "Folk"
+msgstr ""
+
+#: ./vocabularies.py:178
 msgid "Folk DB"
 msgstr ""
 
-#: ./vocabularies.py:39
+#: ./vocabularies.py:179
 msgid "Foreign DB"
 msgstr ""
 
-#: ./archive.py:56
+#: ./vocabularies.py:108
+msgid "Foundation"
+msgstr ""
+
+#: ./archive.py:54
 #: ./archive_templates/view.pt:34
 msgid "Function"
 msgstr ""
 
-#: ./vocabularies.py:53
+#: ./temple.py:83
+#: ./temple_templates/view.pt:56
+msgid "Funding Type"
+msgstr ""
+
+#: ./temple.py:89
+#: ./temple_templates/view.pt:61
+msgid "Funding Type Other"
+msgstr ""
+
+#: ./vocabularies.py:123
+msgid "Fuzzy"
+msgstr ""
+
+#: ./vocabularies.py:30
+msgid "GIS Reference"
+msgstr ""
+
+#: ./vocabularies.py:29
+msgid "GPS"
+msgstr ""
+
+#: ./vocabularies.py:190
+msgid "General"
+msgstr ""
+
+#: ./vocabularies.py:28
+msgid "GeoCoder"
+msgstr ""
+
+#: ./vocabularies.py:110
+msgid "Government"
+msgstr ""
+
+#: ./vocabularies.py:14
+msgid "Governmental"
+msgstr ""
+
+#: ./vocabularies.py:193
 msgid "History"
+msgstr ""
+
+#: ./temple.py:120
+#: ./temple_templates/view.pt:91
+msgid "Homepage"
 msgstr ""
 
 #: ./archive_templates/view.pt:14
 msgid "ID"
 msgstr ""
 
-#: ./archive.py:36
+#: ./archive.py:34
 msgid "ID Number"
 msgstr ""
 
-#: ./archive.py:31
-#: ./publication.py:96
+#: ./vocabularies.py:59
+msgid "IKuanTao"
+msgstr ""
+
+#: ./publication.py:30
+msgid "Id"
+msgstr ""
+
+#: ./archive.py:29
+#: ./publication.py:100
 msgid "Image"
 msgstr ""
 
-#: ./archive.py:71
+#: ./archive.py:69
 #: ./archive_templates/view.pt:49
 msgid "Institute"
 msgstr ""
 
-#: ./vocabularies.py:50
+#: ./temple.py:178
+#: ./temple_templates/view.pt:136
+#: ./vocabularies.py:137
 msgid "Introduction"
 msgstr ""
 
-#: ./vocabularies.py:21
+#: ./temple.py:254
+msgid "JiSiFanWei"
+msgstr ""
+
+#: ./temple.py:244
+msgid "JiSiZuQun"
+msgstr ""
+
+#: ./temple.py:249
+msgid "JiSiZuQun Other"
+msgstr ""
+
+#: ./vocabularies.py:161
 msgid "Journal"
 msgstr ""
 
-#: ./vocabularies.py:36
+#: ./vocabularies.py:58
+msgid "Liism"
+msgstr ""
+
+#: ./temple.py:226
+#: ./temple_templates/view.pt:166
+msgid "Literature Reference"
+msgstr ""
+
+#: ./temple.py:325
+msgid "Luck Divination"
+msgstr ""
+
+#: ./vocabularies.py:44
+msgid "MaZu"
+msgstr ""
+
+#: ./vocabularies.py:176
 msgid "MaZu DB"
 msgstr ""
 
-#: ./vocabularies.py:35
+#: ./vocabularies.py:175
 msgid "Mainland DB"
 msgstr ""
 
-#: ./archive.py:51
+#: ./vocabularies.py:31
+msgid "Map"
+msgstr ""
+
+#: ./archive.py:49
 #: ./archive_templates/view.pt:29
 msgid "Material"
 msgstr ""
 
-#: ./vocabularies.py:16
+#: ./vocabularies.py:156
 msgid "Media"
 msgstr ""
 
-#: ./vocabularies.py:56
+#: ./temple.py:320
+msgid "Medicine Divination"
+msgstr ""
+
+#: ./temple.py:202
+#: ./temple_templates/view.pt:151
+#: ./vocabularies.py:140
+msgid "Narrate"
+msgstr ""
+
+#: ./temple.py:300
+msgid "NianLiQingSheng"
+msgstr ""
+
+#: ./temple.py:305
+msgid "NianLiQingSheng Other"
+msgstr ""
+
+#: ./temple.py:210
+#: ./temple_templates/view.pt:156
+#: ./vocabularies.py:141
+msgid "Non Narrate"
+msgstr ""
+
+#: ./vocabularies.py:32
+msgid "Not Yet"
+msgstr ""
+
+#: ./vocabularies.py:196
 msgid "Organization"
 msgstr ""
 
-#: ./vocabularies.py:22
+#: ./temple.py:94
+#: ./temple_templates/view.pt:66
+msgid "Organizing Type"
+msgstr ""
+
+#: ./temple.py:100
+#: ./temple_templates/view.pt:71
+msgid "Organizing Type Other"
+msgstr ""
+
+#: ./vocabularies.py:17
 msgid "Other"
 msgstr ""
 
-#: ./vocabularies.py:20
+#: ./photo.py:88
+#: ./photo_templates/view.pt:54
+msgid "Owner Name"
+msgstr ""
+
+#: ./photo.py:93
+#: ./photo_templates/view.pt:59
+msgid "Owner Organization"
+msgstr ""
+
+#: ./photo.py:98
+#: ./photo_templates/view.pt:64
+msgid "Owner Title"
+msgstr ""
+
+#: ./vocabularies.py:160
 msgid "Paper"
 msgstr ""
 
-#: ./archive.py:66
+#: ./archive.py:64
 #: ./archive_templates/view.pt:44
 msgid "Period"
 msgstr ""
 
-#: ./vocabularies.py:19
+#: ./vocabularies.py:159
 msgid "Periodical"
 msgstr ""
 
-#: ./vocabularies.py:55
+#: ./vocabularies.py:106
+msgid "Person"
+msgstr ""
+
+#: ./temple.py:110
+#: ./temple_templates/view.pt:81
+msgid "Person In Charge"
+msgstr ""
+
+#: ./vocabularies.py:79
+msgid "PhoenixHall"
+msgstr ""
+
+#: ./photo.py:38
+#: ./profiles/default/types/Photo.xml
+msgid "Photo"
+msgstr ""
+
+#: ./photo.py:83
+#: ./photo_templates/view.pt:49
+msgid "Photo Day"
+msgstr ""
+
+#: ./photo.py:78
+#: ./photo_templates/view.pt:44
+msgid "Photo Month"
+msgstr ""
+
+#: ./profiles/default/types/Photo.xml
+msgid "Photo Type"
+msgstr ""
+
+#: ./photo.py:73
+#: ./photo_templates/view.pt:39
+msgid "Photo Year"
+msgstr ""
+
+#: ./vocabularies.py:195
 msgid "Pilgrimage"
 msgstr ""
 
-#: ./vocabularies.py:61
+#: ./vocabularies.py:201
 msgid "Policy"
 msgstr ""
 
-#: ./vocabularies.py:59
+#: ./vocabularies.py:199
 msgid "Politics"
 msgstr ""
 
-#: ./vocabularies.py:18
+#: ./temple.py:37
+#: ./temple_templates/view.pt:14
+msgid "Position Type"
+msgstr ""
+
+#: ./vocabularies.py:77
+msgid "Private"
+msgstr ""
+
+#: ./vocabularies.py:158
 msgid "Proceeding"
+msgstr ""
+
+#: ./vocabularies.py:94
+msgid "Public"
 msgstr ""
 
 #: ./profiles/default/types/Publication.xml
 msgid "Publication"
 msgstr ""
 
-#: ./vocabularies.py:33
+#: ./vocabularies.py:173
 msgid "Publication DB"
 msgstr ""
 
@@ -217,61 +557,211 @@ msgstr ""
 msgid "Publication Type"
 msgstr ""
 
-#: ./publication.py:55
-#: ./publication_templates/view.pt:34
+#: ./publication.py:59
+#: ./publication_templates/view.pt:35
 msgid "Publisher"
 msgstr ""
 
-#: ./vocabularies.py:63
+#: ./vocabularies.py:92
+msgid "Raising"
+msgstr ""
+
+#: ./photo.py:103
+#: ./photo_templates/view.pt:69
+msgid "Reference"
+msgstr ""
+
+#: ./temple.py:154
+#: ./temple_templates/view.pt:121
+msgid "References on Establishment"
+msgstr ""
+
+#: ./vocabularies.py:203
 msgid "Region"
 msgstr ""
 
-#: ./vocabularies.py:37
+#: ./temple.py:77
+#: ./temple_templates/view.pt:51
+msgid "Registered Name"
+msgstr ""
+
+#: ./temple.py:78
+msgid "Registry by Ministry of the Interior."
+msgstr ""
+
+#: ./vocabularies.py:177
 msgid "Religion DB"
 msgstr ""
 
-#: ./vocabularies.py:54
+#: ./temple.py:60
+#: ./temple_templates/view.pt:36
+msgid "Religion Type"
+msgstr ""
+
+#: ./vocabularies.py:194
 msgid "Ritual"
 msgstr ""
 
-#: ./archive.py:61
+#: ./temple.py:43
+#: ./temple_templates/view.pt:19
+msgid "Sitting Facing"
+msgstr ""
+
+#: ./archive.py:59
 #: ./archive_templates/view.pt:39
 msgid "Size"
 msgstr ""
 
-#: ./vocabularies.py:60
+#: ./vocabularies.py:142
+msgid "Spatial Attribute"
+msgstr ""
+
+#: ./vocabularies.py:200
 msgid "Spread"
 msgstr ""
 
-#: ./vocabularies.py:58
+#: ./vocabularies.py:198
 msgid "Straits"
 msgstr ""
 
-#: ./publication.py:88
-#: ./publication_templates/view.pt:69
+#: ./publication.py:92
+#: ./publication_templates/view.pt:65
 msgid "Study"
 msgstr ""
 
-#: ./vocabularies.py:14
+#: ./vocabularies.py:62
+msgid "SyuanYuanJiao"
+msgstr ""
+
+#: ./vocabularies.py:56
+msgid "Taoism"
+msgstr ""
+
+#: ./temple.py:115
+#: ./temple_templates/view.pt:86
+msgid "Telephone"
+msgstr ""
+
+#: ./profiles/default/types/Temple.xml
 msgid "Temple"
 msgstr ""
 
-#: ./vocabularies.py:15
+#: ./profiles/default/types/Temple.xml
+msgid "Temple Type"
+msgstr ""
+
+#: ./vocabularies.py:61
+msgid "TenRiKyo"
+msgstr ""
+
+#: ./vocabularies.py:155
 msgid "Thesis"
 msgstr ""
 
-#: ./archive.py:27
-#: ./publication.py:30
+#: ./vocabularies.py:60
+msgid "TienTi"
+msgstr ""
+
+#: ./archive.py:25
+#: ./publication.py:34
+#: ./temple.py:27
 msgid "Title"
 msgstr ""
 
-#: ./publication.py:70
-#: ./publication_templates/view.pt:49
+#: ./photo.py:63
+#: ./photo_templates/view.pt:29
+msgid "Town"
+msgstr ""
+
+#: ./publication.py:74
+#: ./publication_templates/view.pt:45
 msgid "URL"
 msgstr ""
 
-#: ./archive.py:46
+#: ./vocabularies.py:124
+msgid "Unknown"
+msgstr ""
+
+#: ./vocabularies.py:78
+msgid "VegetarianHall"
+msgstr ""
+
+#: ./archive.py:44
 #: ./archive_templates/view.pt:24
 msgid "Version"
+msgstr ""
+
+#: ./photo.py:68
+#: ./photo_templates/view.pt:34
+msgid "Village"
+msgstr ""
+
+#: ./temple.py:310
+msgid "WangYeXianXiang"
+msgstr ""
+
+#: ./temple.py:315
+msgid "WangYeXianXiang Other"
+msgstr ""
+
+#: ./temple.py:170
+#: ./temple_templates/view.pt:131
+#: ./vocabularies.py:136
+msgid "Worship"
+msgstr ""
+
+#: ./temple.py:290
+msgid "XiangHuoLaiYuan"
+msgstr ""
+
+#: ./temple.py:295
+msgid "XiangHuoLaiYuan Other"
+msgstr ""
+
+#: ./temple.py:262
+msgid "XinYangFanWei"
+msgstr ""
+
+#: ./temple.py:130
+#: ./temple_templates/view.pt:101
+msgid "Year Accuracy"
+msgstr ""
+
+#: ./temple.py:280
+msgid "YiMingMiaoYu"
+msgstr ""
+
+#: ./temple.py:285
+msgid "YiMingMiaoYu Other"
+msgstr ""
+
+#. Default: "Click to view full-size image…"
+#: ./photo_templates/view.pt:83
+msgid "label_click_to_view_full_image"
+msgstr ""
+
+#. Default: "Size"
+#: ./photo_templates/view.pt:89
+msgid "label_size"
+msgstr ""
+
+#. Default: "Title"
+#: ./photo.py:27
+msgid "title_photo"
+msgstr ""
+
+#. Default: "Buddhism"
+#: ./vocabularies.py:74
+msgid "voc_buddhism"
+msgstr ""
+
+#. Default: "Taoism"
+#: ./vocabularies.py:80
+msgid "voc_taoism"
+msgstr ""
+
+#. Default: "Temple"
+#: ./vocabularies.py:154
+msgid "voc_temple"
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mazu.content\n"
-"POT-Creation-Date: 2014-01-15 13:26+0000\n"
-"PO-Revision-Date: 2014-01-15 21:30+0800\n"
+"POT-Creation-Date: 2015-03-16 07:27+0000\n"
+"PO-Revision-Date: 2015-03-16 16:30+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: Plone I18N <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -14,17 +14,40 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: mazu.content\n"
 
-#: ./vocabularies.py:17
+#: ./vocabularies.py:15
+msgid "Academic"
+msgstr "學術研究成果"
+
+#: ./temple.py:218
+#: ./temple_templates/view.pt:161
+msgid "Academic Works"
+msgstr "學術著作"
+
+#: ./temple.py:105
+#: ./temple_templates/view.pt:76
+msgid "Address"
+msgstr "地址"
+
+#: ./vocabularies.py:157
 msgid "Ancient"
 msgstr "古籍"
 
+#: ./temple.py:194
+#: ./vocabularies.py:139
+msgid "Antiquities"
+msgstr "古物與文物"
+
+#: ./temple_templates/view.pt:146
+msgid "Antiquity"
+msgstr "古物與文物"
+
 #: ./archive_templates/view.pt:54
 #: ./profiles/default/types/Archive.xml
-#: ./publication.py:75
+#: ./publication.py:79
 msgid "Archive"
 msgstr "中心收藏"
 
-#: ./vocabularies.py:34
+#: ./vocabularies.py:174
 msgid "Archive DB"
 msgstr "文獻中心典藏書刊目錄資料庫"
 
@@ -32,181 +55,498 @@ msgstr "文獻中心典藏書刊目錄資料庫"
 msgid "Archive Type"
 msgstr "文物文獻資料表"
 
-#: ./vocabularies.py:57
+#: ./vocabularies.py:197
 msgid "Argument"
 msgstr "媽祖廟糾紛與爭論"
 
-#: ./vocabularies.py:65
+#: ./vocabularies.py:205
 msgid "Arts"
 msgstr "建築、藝術"
 
-#: ./archive.py:81
+#: ./photo.py:50
+msgid "Attached To"
+msgstr "顯示於"
+
+#: ./archive.py:79
 msgid "Attachment"
 msgstr "電子檔案"
 
-#: ./archive.py:41
+#: ./archive.py:39
 #: ./archive_templates/view.pt:19
-#: ./publication.py:40
+#: ./publication.py:44
 msgid "Author"
 msgstr "作者"
 
-#: ./archive.py:76
+#: ./temple.py:330
+msgid "Believer Organization"
+msgstr "信徒組織"
+
+#: ./archive.py:74
 #: ./archive_templates/view.pt:59
-#: ./publication.py:65
+#: ./publication.py:69
 msgid "Body"
 msgstr "詳細介紹"
 
-#: ./vocabularies.py:13
+#: ./vocabularies.py:153
 msgid "Book"
 msgstr "書籍"
 
-#: ./publication.py:34
-#: ./publication_templates/view.pt:14
+#: ./vocabularies.py:55
+msgid "Buddhism"
+msgstr "佛"
+
+#: ./temple.py:186
+#: ./temple_templates/view.pt:141
+#: ./vocabularies.py:138
+msgid "Building Overview"
+msgstr "建築概況"
+
+#: ./temple.py:66
+#: ./temple_templates/view.pt:41
+msgid "Building Type"
+msgstr "寺廟性質"
+
+#: ./temple.py:72
+#: ./temple_templates/view.pt:46
+msgid "Building Type Other"
+msgstr "寺廟性質 (其他)"
+
+#: ./photo.py:42
+#: ./photo_templates/view.pt:14
+#: ./publication.py:38
 msgid "Category"
 msgstr "資料型態"
 
-#: ./vocabularies.py:51
+#: ./vocabularies.py:191
 msgid "Classic"
 msgstr "信仰與經典"
 
-#: ./vocabularies.py:62
+#: ./vocabularies.py:107
+msgid "Committee"
+msgstr "管理委員會"
+
+#: ./temple.py:125
+#: ./temple_templates/view.pt:96
+msgid "Common Era"
+msgstr "年代"
+
+#: ./vocabularies.py:202
 msgid "Community"
 msgstr "媽祖信仰與社區組織"
 
-#: ./vocabularies.py:52
+#: ./vocabularies.py:192
 msgid "Comparison"
 msgstr "媽祖文化與比較研究"
 
-#: ./publication.py:80
-#: ./publication_templates/view.pt:60
+#: ./vocabularies.py:57
+msgid "Confucianism"
+msgstr "儒"
+
+#: ./photo.py:58
+#: ./photo_templates/view.pt:24
+msgid "County"
+msgstr "縣市"
+
+#: ./temple.py:31
+msgid "Data Source"
+msgstr "資料來源"
+
+#: ./publication.py:84
+#: ./publication_templates/view.pt:56
 msgid "Database"
 msgstr "資料庫分類"
 
-#: ./publication.py:50
-#: ./publication_templates/view.pt:29
+#: ./publication.py:54
+#: ./publication_templates/view.pt:30
 msgid "Date"
 msgstr "出版日期"
 
-#: ./publication.py:60
-#: ./publication_templates/view.pt:39
+#: ./vocabularies.py:109
+msgid "Deacon"
+msgstr "執事"
+
+#: ./temple.py:162
+#: ./temple_templates/view.pt:126
+msgid "Deities Accompany"
+msgstr "奉祀神明 (主神之外)"
+
+#: ./temple.py:48
+#: ./temple_templates/view.pt:24
+msgid "Deity Main"
+msgstr "主祠神明"
+
+#: ./temple.py:54
+#: ./temple_templates/view.pt:31
+msgid "Deity Subsidiary"
+msgstr "陪祠神明"
+
+#: ./photo.py:32
+#: ./publication.py:64
 msgid "Description"
 msgstr "介紹摘要"
 
-#: ./publication.py:45
-#: ./publication_templates/view.pt:24
+#: ./temple.py:338
+msgid "Description Other"
+msgstr "其他可供記述事項"
+
+#: ./publication.py:49
+#: ./publication_templates/view.pt:25
 msgid "Distribution"
 msgstr "書刊資訊"
 
-#: ./vocabularies.py:64
+#: ./vocabularies.py:204
 msgid "Document"
 msgstr "單一媽祖廟研究(含廟誌)"
 
-#: ./vocabularies.py:66
+#: ./vocabularies.py:206
 msgid "Economics"
 msgstr "社會經濟"
 
-#: ./vocabularies.py:38
+#: ./temple.py:144
+#: ./temple_templates/view.pt:111
+msgid "Established Year by Taiwan Temple Collection"
+msgstr "創立年代 (台灣寺廟大全)"
+
+#: ./temple.py:149
+#: ./temple_templates/view.pt:116
+msgid "Established Year by Taiwan Temple Overview"
+msgstr "創立年代 (台灣寺廟概覽)"
+
+#: ./temple.py:136
+#: ./temple_templates/view.pt:106
+#: ./vocabularies.py:135
+msgid "Establishment History"
+msgstr "建立沿革"
+
+#: ./vocabularies.py:122
+msgid "Exact"
+msgstr "精確"
+
+#: ./temple.py:270
+msgid "FenLingXiTong"
+msgstr "分靈系統"
+
+#: ./temple.py:275
+msgid "FenLingXiTong Other"
+msgstr "分靈系統 (其他)"
+
+#: ./vocabularies.py:16
+msgid "Fieldwork"
+msgstr "田野調查"
+
+#: ./publication.py:105
+msgid "File"
+msgstr "檔案"
+
+#: ./temple.py:239
+#: ./temple_templates/view.pt:176
+msgid "Filling Date"
+msgstr "填表日期"
+
+#: ./temple.py:234
+#: ./temple_templates/view.pt:171
+msgid "Filling Person"
+msgstr "填表人姓名"
+
+#: ./vocabularies.py:75
+msgid "Folk"
+msgstr "民間寺廟"
+
+#: ./vocabularies.py:178
 msgid "Folk DB"
 msgstr "民間信仰研究論著目錄資料庫"
 
-#: ./vocabularies.py:39
+#: ./vocabularies.py:179
 msgid "Foreign DB"
 msgstr "外文期刊論著目次資料庫"
 
-#: ./archive.py:56
+#: ./vocabularies.py:108
+msgid "Foundation"
+msgstr "財團法人"
+
+#: ./archive.py:54
 #: ./archive_templates/view.pt:34
 msgid "Function"
 msgstr "功能"
 
-#: ./vocabularies.py:53
+#: ./temple.py:83
+#: ./temple_templates/view.pt:56
+msgid "Funding Type"
+msgstr "建別"
+
+#: ./temple.py:89
+#: ./temple_templates/view.pt:61
+msgid "Funding Type Other"
+msgstr "建別 (其他)"
+
+#: ./vocabularies.py:123
+msgid "Fuzzy"
+msgstr "概略"
+
+#: ./vocabularies.py:30
+msgid "GIS Reference"
+msgstr "GIS 資料參考定位"
+
+#: ./vocabularies.py:29
+msgid "GPS"
+msgstr "GPS 定位"
+
+#: ./vocabularies.py:190
+msgid "General"
+msgstr "通論"
+
+#: ./vocabularies.py:28
+msgid "GeoCoder"
+msgstr "住址轉址定位"
+
+#: ./vocabularies.py:110
+msgid "Government"
+msgstr "政府管理"
+
+#: ./vocabularies.py:14
+msgid "Governmental"
+msgstr "政府官方資料"
+
+#: ./vocabularies.py:193
 msgid "History"
 msgstr "歷史、事蹟與傳說"
+
+#: ./temple.py:120
+#: ./temple_templates/view.pt:91
+msgid "Homepage"
+msgstr "網址"
 
 #: ./archive_templates/view.pt:14
 msgid "ID"
 msgstr "編號"
 
-#: ./archive.py:36
+#: ./archive.py:34
 msgid "ID Number"
 msgstr "編號"
 
-#: ./archive.py:31
-#: ./publication.py:96
+#: ./vocabularies.py:59
+msgid "IKuanTao"
+msgstr "一貫道"
+
+#: ./publication.py:30
+msgid "Id"
+msgstr "登錄號"
+
+#: ./archive.py:29
+#: ./publication.py:100
 msgid "Image"
 msgstr "影像"
 
-#: ./archive.py:71
+#: ./archive.py:69
 #: ./archive_templates/view.pt:49
 msgid "Institute"
 msgstr "館藏位置"
 
-#: ./vocabularies.py:50
+#: ./temple.py:178
+#: ./temple_templates/view.pt:136
+#: ./vocabularies.py:137
 msgid "Introduction"
-msgstr "通論"
+msgstr "簡介與相關圖片"
 
-#: ./vocabularies.py:21
+#: ./temple.py:254
+msgid "JiSiFanWei"
+msgstr "祭祀範圍"
+
+#: ./temple.py:244
+msgid "JiSiZuQun"
+msgstr "祭祀族群"
+
+#: ./temple.py:249
+msgid "JiSiZuQun Other"
+msgstr "祭祀族群 (其他)"
+
+#: ./vocabularies.py:161
 msgid "Journal"
 msgstr "期刊論文"
 
-#: ./vocabularies.py:36
+#: ./vocabularies.py:58
+msgid "Liism"
+msgstr "理"
+
+#: ./temple.py:226
+#: ./temple_templates/view.pt:166
+msgid "Literature Reference"
+msgstr "相關書目"
+
+#: ./temple.py:325
+msgid "Luck Divination"
+msgstr "運籤"
+
+#: ./vocabularies.py:44
+msgid "MaZu"
+msgstr "天上聖母"
+
+#: ./vocabularies.py:176
 msgid "MaZu DB"
 msgstr "媽祖研究論著目錄資料庫"
 
-#: ./vocabularies.py:35
+#: ./vocabularies.py:175
 msgid "Mainland DB"
 msgstr "文獻中心典藏大陸期刊目錄索引資料庫"
 
-#: ./archive.py:51
+#: ./vocabularies.py:31
+msgid "Map"
+msgstr "地圖定位"
+
+#: ./archive.py:49
 #: ./archive_templates/view.pt:29
 msgid "Material"
 msgstr "材質"
 
-#: ./vocabularies.py:16
+#: ./vocabularies.py:156
 msgid "Media"
 msgstr "影音資料"
 
-#: ./vocabularies.py:56
+#: ./temple.py:320
+msgid "Medicine Divination"
+msgstr "藥籤"
+
+#: ./temple.py:202
+#: ./temple_templates/view.pt:151
+#: ./vocabularies.py:140
+msgid "Narrate"
+msgstr "敘事性裝飾題材"
+
+#: ./temple.py:300
+msgid "NianLiQingSheng"
+msgstr "年例請神"
+
+#: ./temple.py:305
+msgid "NianLiQingSheng Other"
+msgstr "年例請神 (其他)"
+
+#: ./temple.py:210
+#: ./temple_templates/view.pt:156
+#: ./vocabularies.py:141
+msgid "Non Narrate"
+msgstr "非敘事性人物裝飾"
+
+#: ./vocabularies.py:32
+msgid "Not Yet"
+msgstr "未定位"
+
+#: ./vocabularies.py:196
 msgid "Organization"
 msgstr "祭祀活動與組織"
 
-#: ./vocabularies.py:22
+#: ./temple.py:94
+#: ./temple_templates/view.pt:66
+msgid "Organizing Type"
+msgstr "組織型態"
+
+#: ./temple.py:100
+#: ./temple_templates/view.pt:71
+msgid "Organizing Type Other"
+msgstr "組織型態 (其他)"
+
+#: ./vocabularies.py:17
 msgid "Other"
 msgstr "其他"
 
-#: ./vocabularies.py:20
+#: ./photo.py:88
+#: ./photo_templates/view.pt:54
+msgid "Owner Name"
+msgstr "圖片拍攝/提供者姓名"
+
+#: ./photo.py:93
+#: ./photo_templates/view.pt:59
+msgid "Owner Organization"
+msgstr "圖片拍攝/提供者單位"
+
+#: ./photo.py:98
+#: ./photo_templates/view.pt:64
+msgid "Owner Title"
+msgstr "圖片拍攝/提供者職稱"
+
+#: ./vocabularies.py:160
 msgid "Paper"
 msgstr "單篇論文"
 
-#: ./archive.py:66
+#: ./archive.py:64
 #: ./archive_templates/view.pt:44
 msgid "Period"
 msgstr "年代"
 
-#: ./vocabularies.py:19
+#: ./vocabularies.py:159
 msgid "Periodical"
 msgstr "期刊"
 
-#: ./vocabularies.py:55
+#: ./vocabularies.py:106
+msgid "Person"
+msgstr "管理人"
+
+#: ./temple.py:110
+#: ./temple_templates/view.pt:81
+msgid "Person In Charge"
+msgstr "負責人"
+
+#: ./vocabularies.py:79
+msgid "PhoenixHall"
+msgstr "鸞堂"
+
+#: ./photo.py:38
+#: ./profiles/default/types/Photo.xml
+msgid "Photo"
+msgstr "照片"
+
+#: ./photo.py:83
+#: ./photo_templates/view.pt:49
+msgid "Photo Day"
+msgstr "拍攝/製作日期"
+
+#: ./photo.py:78
+#: ./photo_templates/view.pt:44
+msgid "Photo Month"
+msgstr "拍攝/製作月份"
+
+#: ./profiles/default/types/Photo.xml
+msgid "Photo Type"
+msgstr "照片表單"
+
+#: ./photo.py:73
+#: ./photo_templates/view.pt:39
+msgid "Photo Year"
+msgstr "拍攝/製作年份"
+
+#: ./vocabularies.py:195
 msgid "Pilgrimage"
 msgstr "進香"
 
-#: ./vocabularies.py:61
+#: ./vocabularies.py:201
 msgid "Policy"
 msgstr "觀光與文化政策"
 
-#: ./vocabularies.py:59
+#: ./vocabularies.py:199
 msgid "Politics"
 msgstr "媽祖信仰與政治"
 
-#: ./vocabularies.py:18
+#: ./temple.py:37
+#: ./temple_templates/view.pt:14
+msgid "Position Type"
+msgstr "坐標定位方式"
+
+#: ./vocabularies.py:77
+msgid "Private"
+msgstr "私人寺廟"
+
+#: ./vocabularies.py:158
 msgid "Proceeding"
 msgstr "會議論文集"
+
+#: ./vocabularies.py:94
+msgid "Public"
+msgstr "公有"
 
 #: ./profiles/default/types/Publication.xml
 msgid "Publication"
 msgstr "出版品"
 
-#: ./vocabularies.py:33
+#: ./vocabularies.py:173
 msgid "Publication DB"
 msgstr "文獻中心出版品全文資料庫"
 
@@ -214,61 +554,211 @@ msgstr "文獻中心出版品全文資料庫"
 msgid "Publication Type"
 msgstr "出版品表單"
 
-#: ./publication.py:55
-#: ./publication_templates/view.pt:34
+#: ./publication.py:59
+#: ./publication_templates/view.pt:35
 msgid "Publisher"
 msgstr "出版者"
 
-#: ./vocabularies.py:63
+#: ./vocabularies.py:92
+msgid "Raising"
+msgstr "勸募"
+
+#: ./photo.py:103
+#: ./photo_templates/view.pt:69
+msgid "Reference"
+msgstr "參考文獻"
+
+#: ./temple.py:154
+#: ./temple_templates/view.pt:121
+msgid "References on Establishment"
+msgstr "創立年代參考文獻"
+
+#: ./vocabularies.py:203
 msgid "Region"
 msgstr "區域媽祖廟研究"
 
-#: ./vocabularies.py:37
+#: ./temple.py:77
+#: ./temple_templates/view.pt:51
+msgid "Registered Name"
+msgstr "登記名稱"
+
+#: ./temple.py:78
+msgid "Registry by Ministry of the Interior."
+msgstr "內政部寺廟登記資料"
+
+#: ./vocabularies.py:177
 msgid "Religion DB"
 msgstr "宗教研究論著目錄資料庫"
 
-#: ./vocabularies.py:54
+#: ./temple.py:60
+#: ./temple_templates/view.pt:36
+msgid "Religion Type"
+msgstr "教別"
+
+#: ./vocabularies.py:194
 msgid "Ritual"
 msgstr "儀式與祭典"
 
-#: ./archive.py:61
+#: ./temple.py:43
+#: ./temple_templates/view.pt:19
+msgid "Sitting Facing"
+msgstr "坐向"
+
+#: ./archive.py:59
 #: ./archive_templates/view.pt:39
 msgid "Size"
 msgstr "尺寸"
 
-#: ./vocabularies.py:60
+#: ./vocabularies.py:142
+msgid "Spatial Attribute"
+msgstr "空間屬性"
+
+#: ./vocabularies.py:200
 msgid "Spread"
 msgstr "信仰的傳播"
 
-#: ./vocabularies.py:58
+#: ./vocabularies.py:198
 msgid "Straits"
 msgstr "兩岸交流"
 
-#: ./publication.py:88
-#: ./publication_templates/view.pt:69
+#: ./publication.py:92
+#: ./publication_templates/view.pt:65
 msgid "Study"
 msgstr "媽祖研究資料分類"
 
-#: ./vocabularies.py:14
-msgid "Temple"
-msgstr "寺廟出版品"
+#: ./vocabularies.py:62
+msgid "SyuanYuanJiao"
+msgstr "軒轅教"
 
-#: ./vocabularies.py:15
+#: ./vocabularies.py:56
+msgid "Taoism"
+msgstr "道"
+
+#: ./temple.py:115
+#: ./temple_templates/view.pt:86
+msgid "Telephone"
+msgstr "電話"
+
+#: ./profiles/default/types/Temple.xml
+msgid "Temple"
+msgstr "寺廟"
+
+#: ./profiles/default/types/Temple.xml
+msgid "Temple Type"
+msgstr "寺廟表單"
+
+#: ./vocabularies.py:61
+msgid "TenRiKyo"
+msgstr "天理教"
+
+#: ./vocabularies.py:155
 msgid "Thesis"
 msgstr "碩博士論文"
 
-#: ./archive.py:27
-#: ./publication.py:30
+#: ./vocabularies.py:60
+msgid "TienTi"
+msgstr "天帝教"
+
+#: ./archive.py:25
+#: ./publication.py:34
+#: ./temple.py:27
 msgid "Title"
 msgstr "資料名稱"
 
-#: ./publication.py:70
-#: ./publication_templates/view.pt:49
+#: ./photo.py:63
+#: ./photo_templates/view.pt:29
+msgid "Town"
+msgstr "鄉鎮"
+
+#: ./publication.py:74
+#: ./publication_templates/view.pt:45
 msgid "URL"
 msgstr "線上電子資源"
 
-#: ./archive.py:46
+#: ./vocabularies.py:124
+msgid "Unknown"
+msgstr "不可考"
+
+#: ./vocabularies.py:78
+msgid "VegetarianHall"
+msgstr "齋堂"
+
+#: ./archive.py:44
 #: ./archive_templates/view.pt:24
 msgid "Version"
 msgstr "版本"
+
+#: ./photo.py:68
+#: ./photo_templates/view.pt:34
+msgid "Village"
+msgstr "所屬村落"
+
+#: ./temple.py:310
+msgid "WangYeXianXiang"
+msgstr "王爺選項"
+
+#: ./temple.py:315
+msgid "WangYeXianXiang Other"
+msgstr "王爺選項 (其他)"
+
+#: ./temple.py:170
+#: ./temple_templates/view.pt:131
+#: ./vocabularies.py:136
+msgid "Worship"
+msgstr "祭祀活動"
+
+#: ./temple.py:290
+msgid "XiangHuoLaiYuan"
+msgstr "香火來源"
+
+#: ./temple.py:295
+msgid "XiangHuoLaiYuan Other"
+msgstr "香火來源 (其他)"
+
+#: ./temple.py:262
+msgid "XinYangFanWei"
+msgstr "信仰範圍"
+
+#: ./temple.py:130
+#: ./temple_templates/view.pt:101
+msgid "Year Accuracy"
+msgstr "年份精確度"
+
+#: ./temple.py:280
+msgid "YiMingMiaoYu"
+msgstr "移民廟宇"
+
+#: ./temple.py:285
+msgid "YiMingMiaoYu Other"
+msgstr "移民廟宇 (其他)"
+
+#. Default: "Click to view full-size image…"
+#: ./photo_templates/view.pt:83
+msgid "label_click_to_view_full_image"
+msgstr "點選以檢視原圖"
+
+#. Default: "Size"
+#: ./photo_templates/view.pt:89
+msgid "label_size"
+msgstr "尺寸"
+
+#. Default: "Title"
+#: ./photo.py:27
+msgid "title_photo"
+msgstr "標題"
+
+#. Default: "Buddhism"
+#: ./vocabularies.py:74
+msgid "voc_buddhism"
+msgstr "佛教寺院"
+
+#. Default: "Taoism"
+#: ./vocabularies.py:80
+msgid "voc_taoism"
+msgstr "道教宮觀"
+
+#. Default: "Temple"
+#: ./vocabularies.py:154
+msgid "voc_temple"
+msgstr "寺廟出版品"
 
