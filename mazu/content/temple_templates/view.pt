@@ -12,7 +12,7 @@
 
 <div tal:condition="context/position">
   <label i18n:translate="">Position Type</label>:
-  <span tal:replace="context/position" />
+  <span tal:replace="python:view.t_title(context.position,'position')" />
 </div>
 
 <div tal:condition="context/facing">
@@ -22,7 +22,9 @@
 
 <div tal:condition="context/deity_main">
   <label i18n:translate="">Deity Main</label>:
-  <span tal:replace="context/deity_main" />
+  <tal:deity_main repeat="deity context/deity_main">
+  <span tal:replace="python:view.t_title(deity,'deity')" />
+  </tal:deity_main>
 </div>
 
 <div tal:condition="context/deity_sub">
@@ -32,12 +34,12 @@
 
 <div tal:condition="context/religion">
   <label i18n:translate="">Religion Type</label>:
-  <span tal:replace="context/religion" />
+  <span tal:replace="python:view.t_title(context.religion,'religion')" />
 </div>
 
 <div tal:condition="context/building">
   <label i18n:translate="">Building Type</label>:
-  <span tal:replace="context/building" />
+  <span tal:replace="python:view.t_title(context.building,'building')" />
 </div>
 
 <div tal:condition="context/building_o">
@@ -52,7 +54,7 @@
 
 <div tal:condition="context/funding">
   <label i18n:translate="">Funding Type</label>:
-  <span tal:replace="context/funding" />
+  <span tal:replace="python:view.t_title(context.funding,'funding')" />
 </div>
 
 <div tal:condition="context/funding_o">
@@ -62,7 +64,7 @@
 
 <div tal:condition="context/organizing">
   <label i18n:translate="">Organizing Type</label>:
-  <span tal:replace="context/organizing" />
+  <span tal:replace="python:view.t_title(context.organizing,'organizing')" />
 </div>
 
 <div tal:condition="context/organizing_o">
@@ -97,7 +99,7 @@
 
 <div tal:condition="context/year_accuracy">
   <label i18n:translate="">Year Accuracy</label>:
-  <span tal:replace="context/year_accuracy" />
+  <span tal:replace="python:view.t_title(context.year_accuracy,'accrcy_y')" />
 </div>
 
 <div tal:condition="context/history">
@@ -136,7 +138,7 @@
 </div>
 
 <div tal:condition="context/overview">
-  <label i18n:translate="">Overview</label>:
+  <label i18n:translate="">Building Overview</label>:
   <span tal:replace="structure context/overview/output" />
 </div>
 

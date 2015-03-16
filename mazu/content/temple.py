@@ -5,6 +5,9 @@ from plone.indexer import indexer
 from zope import schema
 from plone.app.textfield import RichText
 
+from zope.component import getUtility
+from zope.schema.interfaces import IVocabularyFactory
+
 from mazu.content import MessageFactory as _
 
 
@@ -24,13 +27,15 @@ class ITemple(form.Schema):
         title=_(u"Title"),
     )
 
-    data_src = schema.TextLine(
+    data_src = schema.Choice(
         title=_(u"Data Source"),
+        vocabulary='data_src',
         required=False,
     )
 
-    position = schema.TextLine(
+    position = schema.Choice(
         title=_(u"Position Type"), #Coordinate Type
+        vocabulary='position',
         required=False,
     )
 
@@ -51,13 +56,15 @@ class ITemple(form.Schema):
         required=False,
     )
 
-    religion = schema.TextLine(
+    religion = schema.Choice(
         title=_(u"Religion Type"),
+        vocabulary='religion',
         required=False,
     )
 
-    building = schema.TextLine(
+    building = schema.Choice(
         title=_(u"Building Type"),
+        vocabulary='building',
         required=False,
     )
 
@@ -72,8 +79,9 @@ class ITemple(form.Schema):
         required=False,
     )
 
-    funding = schema.TextLine(
+    funding = schema.Choice(
         title=_(u"Funding Type"),
+        vocabulary='funding',
         required=False,
     )
 
@@ -82,8 +90,9 @@ class ITemple(form.Schema):
         required=False,
     )
 
-    organizing = schema.TextLine(
+    organizing = schema.Choice(
         title=_(u"Organizing Type"),
+        vocabulary='organizing',
         required=False,
     )
 
@@ -117,8 +126,9 @@ class ITemple(form.Schema):
         required=False,
     )
 
-    year_accuracy = schema.TextLine(
+    year_accuracy = schema.Choice(
         title=_(u"Year Accuracy"),
+        vocabulary='accrcy_y',
         required=False,
     )
 
@@ -165,7 +175,7 @@ class ITemple(form.Schema):
     )
 
     introduction = RichText(
-        title=_(u"introduction"),
+        title=_(u"Introduction"),
         required=False,
         default_mime_type='text/html',
         output_mime_type='text/html',
@@ -221,7 +231,7 @@ class ITemple(form.Schema):
     )
 
     fill_in = schema.TextLine(
-        title=_(u"Filing Person"),
+        title=_(u"Filling Person"),
         required=False,
     )
 
@@ -358,4 +368,13 @@ class View(grok.View):
     grok.context(ITemple)
     grok.require('zope2.View')
     grok.name('view')
+
+    def t_title(self, value, vocab):
+        factory = getUtility(IVocabularyFactory, vocab)
+        vocabulary = factory(self)
+        try:
+            existing = vocabulary.getTerm(value)
+            return existing.title
+        except LookupError:
+            return value
 
